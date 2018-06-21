@@ -12,6 +12,10 @@ object Boot {
       .master("local[*]")
       .getOrCreate()
 
-    Titanic.explore(session)
+    //Titanic.explore(session)
+
+
+    // malicious domains classifier
+    MaliciousDomains.run(session)
   }
 }
