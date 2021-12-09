@@ -1,15 +1,11 @@
-from functools import reduce
+from typing import NamedTuple
+class Node(NamedTuple):
+    x: int
+    next: NamedTuple
 
-def to_dict(lst: list) -> dict:
-    d = {}
-    for i, v in enumerate(lst):
-        tmp = d.get(v, [])
-        d[v] = tmp + [i]
-    return d
+n = Node(1, Node(2, None))
 
-
-lst = [1, 2, 1, 3, 4]
-
-print(to_dict(lst))
-
+while n:
+    print('Current', n.x, n.next)
+    n = n.next
 
