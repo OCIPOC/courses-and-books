@@ -1,11 +1,11 @@
 from typing import NamedTuple
+
 class Node(NamedTuple):
     x: int
     next: NamedTuple
 
-n = Node(1, Node(2, None))
+n = Node(1, None)
+print(n)
 
-while n:
-    print('Current', n.x, n.next)
-    n = n.next
-
+n.next = Node(2, None)
+print(n)
