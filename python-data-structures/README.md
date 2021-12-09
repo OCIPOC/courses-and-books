@@ -23,4 +23,4 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 
 ## LeetCode Problems
 - [Two-Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)
-- [Two-Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)
+- [Add-Two-Numbers](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/add-two-numbers.ipynb)
