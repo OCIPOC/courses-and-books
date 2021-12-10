@@ -1,7 +1,7 @@
-# Courses and Books
-This repo contains summary documents and code examples for various courses and books.
+# Books, Courses, and Articles
+This repo contains summary documents and code examples for various books, courses, and articles.  
 
-Books, Courses, and Articles list: 
+Table of Content 
 - [Apache Spark Machine Learning](https://github.com/dimastatz/courses-and-books/tree/master/spark-ml)
 - [Data Structures and Algorithms in Python](https://github.com/dimastatz/courses-and-books/tree/master/python-data-structures)
 
