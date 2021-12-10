@@ -5,7 +5,7 @@ This project is a collection of [Jupyter Notebooks](https://jupyter.org/) with s
 In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tree/master/python-data-structures/leetocde) folder you will find solutions for the problems from the [LeetCode](https://leetcode.com/) platform.    
 
 ## Table of Content  
-- [Algorithm Analysis](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/algorithm-analysis.ipynb)
+- [Algorithm Analysis](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/algorithm-analysis.md)
 - [Array-Based Sequences]()
 - [Stacks, Queues, and Deques]()
 - [Linked Lists]()
