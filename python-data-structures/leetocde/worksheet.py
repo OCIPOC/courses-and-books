@@ -1,3 +1,6 @@
-s = 'abc'
+def f(x: int, d = {}) -> dict:
+    d[x] = str(x)
+    return d
 
-print(s[0:1])
+
+print(f(1))
