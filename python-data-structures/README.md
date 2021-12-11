@@ -25,4 +25,4 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Two-Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)
 - [Add-Two-Numbers](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/add-two-numbers.ipynb)
 - [Longest-Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-substring.ipynb)
-- [Longest-Palindrome](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-palindrome.ipynb)
+- [Longest-Palindromic-Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-palindrome.ipynb)
