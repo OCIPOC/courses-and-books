@@ -1,3 +1,3 @@
-for i in range(0, 3):
-    print(i)
-    
+s = 'abc'
+
+print(s[0:1])
