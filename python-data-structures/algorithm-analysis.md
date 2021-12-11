@@ -37,4 +37,4 @@ def find_max(lst: list) -> int:
             biggest = x  
     return biggest
 ```
-we can say that, the algorithm, find-max runs in O(n) time
+the algorithm 'find-max' runs in O(n) time.
