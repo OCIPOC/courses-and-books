@@ -17,13 +17,13 @@ First, we define two terms - Data Structure and Algorithm. Simply put, a [Data S
 
 ## The Seven Functions
 The seven important functions for the algorithm analysis:
-- The Constant Function => $f(n)=c$
-- The Logarithm Function => $f(n)=log{_2}{n}$
-- The Linear Function => $f(n)=n$
-- The N-Log-N Function => $f(n) = nlog{_2}{n}$
-- The Quadratic Function => $f(n) = n^2$
-- The Polynomial Function => $f(n) = a+a{_2}n^2+a{_3}n^3+...+a{_d}n^d$
-- The Exponential Function => $f(n) = b^n$
+- The Constant Function: <em>f(n) = c</em>
+- The Logarithm Function: <em>f(n) = log<sub>2</sub>n</em>
+- The Linear Function: <em>f(n) = n</em>
+- The N-Log-N Function: <em>f(n) = nlog<sub>2</sub>n</em>
+- The Quadratic Function: <em>f(n) = n<sup>2</sup></em>
+- The Polynomial Function: <em>f(n) = a + a<sub>2</sub>n<sup>2</sup> + a<sub>3</sub>n<sup>3</sup> +...+ a<sub>d</sub>n<sup>d</sup></em>
+- The Exponential Function: <em>f(n) = b<sup>n</sup></em>
 
 ##  Big O Notation
 The big-Oh notation allows us to say that a function f(n) is less than or equal to function g(n). For example, we can say that f(n) is O(g(n)) or f(n) is order of g(n).
