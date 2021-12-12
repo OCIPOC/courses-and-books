@@ -1,2 +1,2 @@
-x = -121
-print(int(str(x)[::-1]))
+print(5/2)
+print(4//2)
