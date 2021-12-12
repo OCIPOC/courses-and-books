@@ -17,16 +17,16 @@ First, we define two terms - Data Structure and Algorithm. Simply put, a [Data S
 
 ## The Seven Functions
 The seven important functions for the algorithm analysis:
-- The Constant Function => f(n) = c
-- The Logarithm Function => f(n) = log<sub>2</sub>n
-- The Linear Function => f(n) = n
-- The N-Log-N Function => f(n) = n*log<sub>2</sub>n
-- The Quadratic Function => f(n) = n<sup>2</sup>
-- The Polynomial Function => f(n) = a<sub>0</sub>+a<sub>1</sub>n + a<sub>2</sub>n<sup>2</sup>+ ... +a<sub>n</sub>n<sup>d</sup>
-- The Exponential Function => f(n) = b<sup>n</sup>
+- The Constant Function => $f(n)=c$
+- The Logarithm Function => $f(n)=log{_2}{n}$
+- The Linear Function => $f(n)=n$
+- The N-Log-N Function => $f(n) = nlog{_2}{n}$
+- The Quadratic Function => $f(n) = n^2$
+- The Polynomial Function => $f(n) = a+a{_2}n^2+a{_3}n^3+...+a{_d}n^d$
+- The Exponential Function => $f(n) = b^n$
 
 ##  Big O Notation
-The big-Oh notation allows us to say that a function f(n) is “less than or equal to” another function g(n). For example, we can say that f(n) is O(g(n)) or f(n) is order of g(n).
+The big-Oh notation allows us to say that a function f(n) is less than or equal to function g(n). For example, we can say that f(n) is O(g(n)) or f(n) is order of g(n).
 The big-Oh notation is used widely to characterize running times and space bounds in terms of some parameter n.
 For example, for the following code 
 ```python
@@ -37,4 +37,7 @@ def find_max(lst: list) -> int:
             biggest = x  
     return biggest
 ```
-the algorithm 'find-max' runs in O(n) time.
+The algorithm 'find-max' runs in O(n) time.
+
+$log{_2}{n} + n^2$
+

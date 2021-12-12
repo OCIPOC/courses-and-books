@@ -1,6 +1,2 @@
-def f(x: int, d = {}) -> dict:
-    d[x] = str(x)
-    return d
-
-
-print(f(1))
+x = -121
+print(int(str(x)[::-1]))
