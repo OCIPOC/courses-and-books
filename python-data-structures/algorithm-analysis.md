@@ -38,6 +38,3 @@ def find_max(lst: list) -> int:
     return biggest
 ```
 The algorithm 'find-max' runs in O(n) time.
-
-$log{_2}{n} + n^2$
-
