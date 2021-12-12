@@ -27,3 +27,4 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Add-Two-Numbers](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/add-two-numbers.ipynb)
 - [Longest-Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-substring.ipynb)
 - [Longest-Palindromic-Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-palindrome.ipynb)
+- [Container With Most Water](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/container-with-water.ipynb)
