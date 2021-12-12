@@ -23,7 +23,7 @@ def binary_search(data: list, target: int, low: int, high: int) -> bool:
     else:
         mid = (high + low) // 2
         if data[mid] == target:
-            return False
+            return True
         elif:
             if target < data[mid]:
                 return binary_search(data, target, low, mid - 1)
