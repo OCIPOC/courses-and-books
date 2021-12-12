@@ -29,3 +29,4 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Longest Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-substring.ipynb)
 - [Longest Palindromic Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-palindrome.ipynb)
 - [Container With Most Water](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/container-with-water.ipynb)
+- [Reverse Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/reverse-integer.ipynb)

@@ -38,3 +38,7 @@ def find_max(lst: list) -> int:
     return biggest
 ```
 The algorithm 'find-max' runs in O(n) time.
+
+## Simple Justification Techniques
+Sometimes, we will want to make claims about an algorithm, such as showing that it is correct or that it runs fast.
+
