@@ -1,2 +1,7 @@
-print(5/2)
-print(4//2)
+from math import sqrt
+
+
+x = 4
+y = -x
+
+print(y)
