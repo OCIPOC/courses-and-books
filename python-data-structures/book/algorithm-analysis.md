@@ -41,9 +41,9 @@ The algorithm 'find-max' runs in O(n) time.
 
 ## Simple Justification Techniques
 Sometimes, we will want to make claims about an algorithm, such as showing that it is correct or that it runs fast. In math and logic, we have several justification techniques.
-- Deduction is a top-down technique when we move from the common to the specific case. <em>All fruits are tasty. Apple is fruit. Apple is tasy</em> 
+- Deduction is a top-down technique when we move from the common to the specific case. <em>All fruits are tasty. Apple is fruit. Apple is tasty</em> 
 - Induction is the opposite of induction. We move from the down to the top by starting with the specific case and moving to the common. Specifically, we begin a justification by induction by showing that q(n) is true for n = 1 (and possibly some other values n = 2, 3,. . ., k, for some constant k). Then we justify that the inductive “step” is true for n > k, namely, we show “if q(j) is true for all j < n, then q(n) is true.”.
-- Loop Invariants. The final justification technique we discuss in this section is the loop invariant. To prove some statement L about a loop is correct, define L in terms of a series of smaller statements L0, L1, . . ., Lk, where:
+- [Loop Invariants](https://en.wikipedia.org/wiki/Loop_invariant). The final justification technique we discuss in this section is the loop invariant. To prove some statement L about a loop is correct, define L in terms of a series of smaller statements L0, L1, . . ., Lk, where:
     - The initial claim, L0, is true before the loop begins.
     - If Lj−1 is true before iteration j, then Lj will be true after iteration j.
     - The final statement, Lk, implies the desired statement L to be true.
