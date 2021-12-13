@@ -1,7 +1,10 @@
 from math import sqrt
 
 
-x = 4
-y = -x
+from typing import Tuple
 
-print(y)
+def f(x: str) -> Tuple[bool, str]:
+    return False, ''
+
+
+print(f(''))
