@@ -1,7 +1,7 @@
-class Node:
-    def __init__(self) -> None:
-        self.value = 0
-        self.right = None
-        self.left = None
+x = tuple((i, i + 1) for i in range(3))
+print(x)
+
+print(x[1][0])
+
 
 
