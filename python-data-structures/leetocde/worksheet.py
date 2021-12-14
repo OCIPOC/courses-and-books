@@ -1,13 +1,7 @@
-from math import sqrt
+class Node:
+    def __init__(self) -> None:
+        self.value = 0
+        self.right = None
+        self.left = None
 
 
-s1 = 'abc'
-s2 = s1[1:]
-
-print(s1, s2)
-
-print(id(s1), id(s2))
-
-for x in s1:
-    if x.isalpha():
-        pass
