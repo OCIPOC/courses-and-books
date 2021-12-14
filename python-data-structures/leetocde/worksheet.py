@@ -1,5 +1,5 @@
-letters = ''.join(c for c in ['a', 'b', '1'] if c.isalpha())
-for c in letters:
-    print(c, type(c))
-
-letters[0] = 'a' # wrong, string is immutable
+import sys
+data = []
+for k in range(16):
+    data.append(k)
+    print('{} {}'.format(len(data), sys.getsizeof(data)))
