@@ -1,10 +1,9 @@
 from math import sqrt
 
 
-from typing import Tuple
+s1 = 'abc'
+s2 = s1[1:]
 
-def f(x: str) -> Tuple[bool, str]:
-    return False, ''
+print(s1, s2)
 
-
-print(f(''))
+print(id(s1), id(s2))
