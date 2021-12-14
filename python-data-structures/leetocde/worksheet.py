@@ -1,7 +1,5 @@
-x = tuple((i, i + 1) for i in range(3))
-print(x)
+letters = ''.join(c for c in ['a', 'b', '1'] if c.isalpha())
+for c in letters:
+    print(c, type(c))
 
-print(x[1][0])
-
-
-
+letters[0] = 'a' # wrong, string is immutable
