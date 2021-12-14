@@ -30,10 +30,9 @@ x[0] = 1 # wrong, tuple is immutable
 Python strings are compacted immutable array-based sequences
 ```python
 letters = ''.join(c for c in document if c.isalpha())
+letters[0] = 'a' # wrong, string is immutable
 for c in letters:
     print(c, type(c))
-
-letters[0] = 'a' # wrong, string is immutable
 ```
 
 ## Array Complexity
