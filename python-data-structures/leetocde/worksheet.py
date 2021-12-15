@@ -15,7 +15,7 @@ class ArrayStack:
         return self.stack[self.top_idx + 1]
     
     def push(self, x):
-        if self.length == len(self.stack):
+        if self.length() == len(self.stack):
             raise Exception('stack is full')
         self.top_idx += 1
         self.stack[self.top_idx] = x
@@ -36,4 +36,6 @@ for i in range(10):
     assert stack.top() == i
     assert stack.length() == i + 1
     assert stack.is_empty() == False
+
+#stack.push(1)
 

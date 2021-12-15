@@ -4,7 +4,7 @@
 [FIFO](https://en.wikipedia.org/wiki/FIFO_and_LIFO_accounting) first-in-first-out and [LIFO](https://en.wikipedia.org/wiki/FIFO_and_LIFO_accounting) last-in-first-out are methods used in managing inventory and financial matters. For instance, they are used to manage assumptions of costs related to inventory, stock repurchases (if purchased at different prices), and various other accounting purposes. Stack (FIFO) and Queue (LIFO) are fundamental data structures in computer science and are widely used in different scenarios.
 
 ## Stack
-Stack is a data structure that manages a collections of objects by FIFO principle. Stack supports the following operations:
+Stack is a data structure that manages a collections of objects by LIFO principle. Stack supports the following operations:
 - push O(1): add new element to the top of the stack
 - pop O(1): remove and return the element from the top of the stack
 - top O(1): return and element from the top of stack
@@ -40,4 +40,17 @@ class ArrayStack:
     def is_empty(self):
         return self.top_idx == -1
 ```
+
+## Queue
+It is a close “cousin” of the stack, as a queue is a collection of objects that are inserted and removed according to the first-in, first-out (FIFO) principle. Queue supports the following operations:
+- enqueue : add element to the back of the queue
+    - Time complexity: O(1)
+- dequeue: remove and return element from the head of the queue
+    - Time complexity: O(1)
+- first: return the first element of the queue
+    - Time complexity: O(1)
+- is_empty: return True if queue is empty
+    - Time complexity: O(1)
+- length: return the length of the queue
+    - Time complexity: O(1)
 
