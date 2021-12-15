@@ -61,7 +61,7 @@ It is a close “cousin” of the stack, as a queue is a collection of objects t
 - length: return the length of the queue
     - Time complexity: O(1)  
   
-In python we can use [list, queue.Queue, collection.deque](https://docs.python.org/3/library/queue.html) for queue. Or we can implement it by using circular array.
+In python we can use [list, queue.Queue, collection.deque](https://docs.python.org/3/library/queue.html) for queue. We can implement Queue by using circular array.
 
 ## Double-Ended Queues
 We next consider a queue-like data structure that supports insertion and deletion at both the front and the back of the queue. Such a structure is called a double-ended queue, or deque (pronounced “deck” to avoid confusion). The deque abstract operations:
@@ -81,6 +81,9 @@ We next consider a queue-like data structure that supports insertion and deletio
     - Time complexity: O(1)  
 - len: return the number of elements in deque
     - Time complexity: O(1) 
+
+Python implementation can be found in [collection.deque](https://docs.python.org/3/library/collections.html#collections.deque)
+
 
 
 
