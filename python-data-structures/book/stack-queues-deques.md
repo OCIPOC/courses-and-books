@@ -5,11 +5,16 @@
 
 ## Stack
 Stack is a data structure that manages a collections of objects by LIFO principle. Stack supports the following operations:
-- push O(1): add new element to the top of the stack
-- pop O(1): remove and return the element from the top of the stack
-- top O(1): return and element from the top of stack
-- is_empty O(1): return true if stack is empty, otherwise return false
-- length O(1): return the number of elements in the stack
+- push: add new element to the top of the stack
+    - Time complexity: O(1)
+- pop: remove and return the element from the top of the stack
+    - Time complexity: O(1)
+- top: return and element from the top of stack
+    - Time complexity: O(1)
+- is_empty: return true if stack is empty, otherwise return false
+    - Time complexity: O(1)
+- length: return the number of elements in the stack
+    - Time complexity: O(1)
 In Python we can implement stack using list:
 ```python
 class ArrayStack:
