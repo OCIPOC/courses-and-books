@@ -16,7 +16,7 @@ Stack is a data structure that manages a collections of objects by LIFO principl
 - length: return the number of elements in the stack
     - Time complexity: O(1)  
   
-In Python we can implement stack using list:
+In Python we use [list, collections.deque, queue.LifoQueue](https://realpython.com/how-to-implement-python-stack/) as stack or we can implement stack using list:
 
 ```python
 class ArrayStack:
@@ -59,5 +59,32 @@ It is a close “cousin” of the stack, as a queue is a collection of objects t
 - is_empty: return True if queue is empty
     - Time complexity: O(1)
 - length: return the length of the queue
+    - Time complexity: O(1)  
+  
+In python we can use [list, queue.Queue, collection.deque](https://docs.python.org/3/library/queue.html) for queue. Or we can implement it by using circular array.
+
+## Double-Ended Queues
+We next consider a queue-like data structure that supports insertion and deletion at both the front and the back of the queue. Such a structure is called a double-ended queue, or deque (pronounced “deck” to avoid confusion). The deque abstract operations:
+- add-first: add element to the front
     - Time complexity: O(1)
+- add-last: add element to the back
+    - Time complexity: O(1)  
+- delete-first: remove and return the first element
+    - Time complexity: O(1)  
+- delete-last: remove and return the last element
+    - Time complexity: O(1)  
+- first: return first element
+    - Time complexity: O(1)  
+- last: return last element
+    - Time complexity: O(1)  
+- is_empty: return True if empty
+    - Time complexity: O(1)  
+- len: return the number of elements in deque
+    - Time complexity: O(1) 
+
+
+
+
+
+
 
