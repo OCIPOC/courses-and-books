@@ -14,8 +14,10 @@ Stack is a data structure that manages a collections of objects by LIFO principl
 - is_empty: return true if stack is empty, otherwise return false
     - Time complexity: O(1)
 - length: return the number of elements in the stack
-    - Time complexity: O(1)
+    - Time complexity: O(1)  
+  
 In Python we can implement stack using list:
+
 ```python
 class ArrayStack:
     def __init__(self, capacity: int) -> None:
