@@ -9,7 +9,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Algorithm Analysis](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/algorithm-analysis.md)
 - [Recursion](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/recursion.md)
 - [Array-Based Sequences](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/array-based-sequences.md)
-- [Stacks, Queues, and Deques]()
+- [Stacks, Queues, and Deques](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/stack-queues-deques.md)
 - [Linked Lists]()
 - [Trees]()
 - [Priority Queues]()

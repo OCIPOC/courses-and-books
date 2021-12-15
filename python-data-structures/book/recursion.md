@@ -33,4 +33,3 @@ def binary_search(data: list, target: int, low: int, high: int) -> bool:
 ```
 We observe that a constant number of primitive operations are executed at each recursive call of a Binary-Search. Hence, the running time is proportional to the number of recursive calls performed - log<sub>2</sub>n
 
-## Divide And Conquer
