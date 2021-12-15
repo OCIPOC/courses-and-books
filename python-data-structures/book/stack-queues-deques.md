@@ -82,7 +82,7 @@ We next consider a queue-like data structure that supports insertion and deletio
 - len: return the number of elements in deque
     - Time complexity: O(1) 
 
-Python implementation can be found in [collection.deque](https://docs.python.org/3/library/collections.html#collections.deque)
+Python implementation can be found in [collection.deque](https://docs.python.org/3/library/collections.html#collections.deque). We can implement deque by using circular array.
 
 
 
