@@ -1,14 +1,10 @@
-from collections import deque
+lst = [1, 2, 3, 4, 5, 6]
 
-stack = deque()
-stack.append(1)
-stack.append(2)
-print(stack.pop())
-print(stack.pop())
+i = 0
+while i < len(lst):
+    if i + 1 < len(lst):
+        print(lst[i: i + 2]) 
+    i += 1
 
-stack.append(1)
-stack.append(2)
-print(stack.popleft())
-print(stack.popleft())
 
 

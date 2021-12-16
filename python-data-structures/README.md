@@ -32,3 +32,4 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Reverse Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/reverse-integer.ipynb)
 - [String to Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/string-to-int.ipynb)
 - [Integers to Roman](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/integers-to-roman.ipynb)
+- [Roman to Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/roman-to-int.ipynb)
