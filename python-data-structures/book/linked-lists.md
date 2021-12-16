@@ -9,20 +9,18 @@ A singly linked list is a collection of nodes that collectively form a linear se
 ```Python
 class Node:
     def __init__(self, element, next=None):
-        self.element: str = element
+        self.element = element
         self.next: Node = next
 ```
-In Python you can find a linked list implementationin in [collection.deque](https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c#L71). Deque can be used as stack and queue. Implementing stack and queue using linked lists is easy. For example, see stack implementation:
+Implementing stack and queue using linked lists is easy. For example, see stack implementation:
 ```Python
-class Stack:
+class LinkedStack:
     def __init__(self) -> None:
         self.size = 0
         self.head: Node = None
         
     def push(self, element):
-        node = Node(element, None)
-        if self.head:
-            node.next = self.head
+        node = Node(element, self.head)
         self.head = node
         self.size += 1
         
@@ -45,6 +43,32 @@ class Stack:
     def is_empty(self):
         return self.size == 0
 ```
-
+[Python collection module](https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c#L71)contains an implementation of the linked list. [collection.deque](https://realpython.com/python-deque/) can be used as stack or queue. 
 
 ## Circularly Linked Lists
+A circularly linked list provides a more general model than a standard linked list for data sets that are cyclic, that is, which do not have any particular notion of a beginning and end.
+
+## Doubly Linked Lists
+To provide greater symmetry, we define a linked list in which each node keeps an explicit reference to the node before it and a reference to the node after it. Such a structure is known as a doubly linked list.
+```Python
+class Node:
+    def __init__(self, element, next: None, prev: None):
+        self.element = element
+        self.next: Node = next
+        self.prev: Node = prev
+```
+In order to avoid some special cases when operating near the boundaries of a doubly linked list, it helps to add special nodes at both ends of the list: a header node at the beginning of the list, and a trailer node at the end of the list
+```Python
+class DoublyLinkedList:
+    def __init__(self):
+        self.size = 0
+        self.header: Node = Node(None)
+        self.trailer: Node = Node(None)
+        self.header.next = self.trailer
+        self.trailer.prev = self.header
+
+    def insert_first(self, element):
+        node = Node(element, header.next, header)
+        self.header.next = node
+    ...
+```
