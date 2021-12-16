@@ -1,10 +1,24 @@
-lst = [1, 2, 3, 4, 5, 6]
-
-i = 0
-while i < len(lst):
-    if i + 1 < len(lst):
-        print(lst[i: i + 2]) 
-    i += 1
+from _typeshed import Self
 
 
+class Node:
+    def __init__(self, element, next=None) -> None:
+        self.element: str = element
+        self.next: Node = next
+
+class LinkedList:
+    def __init__(self) -> None:
+        self.head: Node = None
+        
+    def add_first(self, element):
+        node = Node(element, None)
+        
+        if self.head:
+            node.next = self.head.next
+        self.head = node
+
+        if not self.tail:
+            self.tail = node
+        
+    def remove()
 
