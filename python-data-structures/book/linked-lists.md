@@ -69,6 +69,8 @@ class DoublyLinkedList:
 
     def insert_first(self, element):
         node = Node(element, header.next, header)
+        self.header.next.prev = node
         self.header.next = node
-    ...
+        ...
 ```
+
