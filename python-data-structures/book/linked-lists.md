@@ -43,7 +43,7 @@ class LinkedStack:
     def is_empty(self):
         return self.size == 0
 ```
-[Python collection module](https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c#L71)contains an implementation of the linked list. [collection.deque](https://realpython.com/python-deque/) can be used as stack or queue. 
+[Python collection module](https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c#L71)  contains an implementation of the linked list. [collection.deque](https://realpython.com/python-deque/) can be used as stack or queue. 
 
 ## Circularly Linked Lists
 A circularly linked list provides a more general model than a standard linked list for data sets that are cyclic, that is, which do not have any particular notion of a beginning and end.
