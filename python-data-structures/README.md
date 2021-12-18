@@ -11,7 +11,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Array-Based Sequences](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/array-based-sequences.md)
 - [Stacks, Queues, and Deques](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/stack-queues-deques.md)
 - [Linked Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/linked-lists.md)
-- [Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/trees.md))
+- [Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/trees.md)
 - [Priority Queues]()
 - [Map, Hash Tables and Skip Lists]()
 - [Search Trees]()
