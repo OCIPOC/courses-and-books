@@ -53,7 +53,9 @@ def inorder(node: TreeNode):
         print(node.value)
         inorder(node.right)
 ```
-- Binary Search Trees:
+- Binary Search Trees: BST is a binary tree where for each node N the following is true: 
+    - <em>N.left.value < N.value < N.right.value</em>
+The height of the binary search tree can be as small as log(n + 1) - 1 and as large as n - 1.
 
 
 ## Example: Expression Trees
