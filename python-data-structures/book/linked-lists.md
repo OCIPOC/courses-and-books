@@ -49,7 +49,7 @@ class LinkedStack:
 A circularly linked list provides a more general model than a standard linked list for data sets that are cyclic, that is, which do not have any particular notion of a beginning and end.
 
 ## Doubly Linked Lists
-To provide greater symmetry, we define a linked list in which each node keeps an explicit reference to the node before it and a reference to the node after it. Such a structure is known as a doubly linked list.
+To provide greater symmetry, we define a linked list in which each node keeps an explicit reference to the node before it and a reference to the node after it. Such a structure is known as a doubly-linked list.
 ```Python
 class Node:
     def __init__(self, element, next: None, prev: None):
@@ -57,7 +57,7 @@ class Node:
         self.next: Node = next
         self.prev: Node = prev
 ```
-In order to avoid some special cases when operating near the boundaries of a doubly linked list, it helps to add special nodes at both ends of the list: a header node at the beginning of the list, and a trailer node at the end of the list
+In order to avoid some special cases when operating near the boundaries of a doubly-linked list, it helps to add special nodes at both ends of the list: a header node at the beginning of the list, and a trailer node at the end of the list
 ```Python
 class DoublyLinkedList:
     def __init__(self):

@@ -51,3 +51,6 @@ Sometimes, we will want to make claims about an algorithm, such as showing that 
 - The “Contra” Attack. 
     - [Contradiciton](https://en.wikipedia.org/wiki/Proof_by_contradiction). We establish that a statement q is true by first supposing that q is false and then showing that this assumption leads to a contradiction (such as 2 ≠ 2 or 1 > 3).
     - [Contraposition](https://en.wikipedia.org/wiki/Contraposition). To justify the statement “if p is true, then q is true,” we establish that “if q is not true, then p is not true” instead. Logically, these two statements are the same, but the latter, which is called the contrapositive of the first, may be easier to think about. For example, the claim "Let a and b be integers. If ab is even, then a is even or b is even". To justify this claim, consider the contrapositive, “If a is odd and b is odd, then ab is odd.” 
+
+## Example Loop Invariants
+TBD
