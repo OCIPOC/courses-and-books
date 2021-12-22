@@ -35,3 +35,6 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Roman to Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/roman-to-int.ipynb)
 - [Zigzag Conversion](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/zigzag-conversion.ipynb)
 - [Recover Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/recover-bst.ipynb)
+- [Validate Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/validate-bst.ipynb)
+
+
