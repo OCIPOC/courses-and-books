@@ -5,23 +5,31 @@ class TreeNode:
         self.right = right
 
 
-def create_bst(array: list, index=-1) -> TreeNode:
-    if not array:
+def from_list(tree: list, root: TreeNode=None):
+    if not tree:
         return None
+    elif not root:
+        root = TreeNode(tree.pop(0))
+        return from_list(tree, root)
     else:
-        index = len(array) // 2 if index == -1 else index
-        node = TreeNode(array[index])
-        node.left = create_bst(array[:index])
-        node.right = create_bst(array[index+1:])
-        return node
-   
-def inorder(node: TreeNode) -> list:
-    if not node:
-        return []
-    else:
-        return inorder(node.left) + [node.val] + inorder(node.right)
-        
+        root.left = TreeNode(tree.pop(0))
+        root.right = TreeNode(tree.pop(0))
+        from_list(tree, root.left)
+        from_list(tree, root.right)
+
+    return root
 
 
-root = create_bst([1, 2, 3, 4, 15])
-print(inorder(root))
+def bf_to_list(node: TreeNode):
+    res, q = [], [node]
+    while q:
+        tmp: TreeNode = q.pop(0)
+        if tmp:
+            res.append(tmp.val)
+            q.append(tmp.left)
+            q.append(tmp.right)
+    return res
+
+
+root = from_list([5, 1, 4, None, None, 3, 6])
+print(bf_to_list(root))
