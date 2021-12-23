@@ -17,6 +17,20 @@ The tree T then supports the following accessor methods:
 
 ## Binary Trees
 Binary Trees are General Trees that consist of nodes with up to two children. Binary trees are ordered trees. Each child can be either left or right. A binary tree is proper if each nodes has exactly 2 or 0 children (aka full binary tree).
+The following function constructs a binary search tree:
+```Python
+def insert(parent, key):
+    if parent is None:
+        return TreeNode(key)
+    else:
+        if parent.val == key:
+            return root
+        elif parent.val < key:
+            parent.right = insert(parent.right, key)
+        else:
+            parent.left = insert(parent.left, key)
+    return parent
+```  
 
 ## Tree traversal algorithms
 - Preorder: visit current node and then recursively visit all children
