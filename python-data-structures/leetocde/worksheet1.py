@@ -33,3 +33,6 @@ def bf_to_list(node: TreeNode):
 
 root = from_list([5, 1, 4, None, None, 3, 6])
 print(bf_to_list(root))
+
+
+print([1, 2, 3].index(2))
