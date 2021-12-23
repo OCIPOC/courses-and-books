@@ -8,12 +8,12 @@ The primary memory of a computer is composed of bits of information, and those b
 
 
 ## Python's Array-Based Types
-Python has the following built in array-based sequences: [list](https://docs.python.org/3/glossary.html#term-list), [tuple](https://docs.python.org/3/library/stdtypes.html?highlight=tuple#tuple) and [str](https://docs.python.org/3/library/stdtypes.html?highlight=str#str). There is significant commonality between these classes, most notably: each supports indexing to access an individual element of a sequence, using a syntax such as seq[k], and each uses a low-level concept known as an [array](https://docs.python.org/3/library/array.html) to represent the sequence. Primary support for arrays is in a module named array. That module defines a class, also named array, providing compact storage for arrays of primitive data types. The constructor for the array class requires a type code as a first parameter, which is a character that designates the type of data that will be stored in the array.
+Python has the following built in array-based sequences: [list](https://docs.python.org/3/glossary.html#term-list), [tuple](https://docs.python.org/3/library/stdtypes.html?highlight=tuple#tuple) and [str](https://docs.python.org/3/library/stdtypes.html?highlight=str#str). There is significant commonality between these classes, most notably: each supports indexing to access an individual element of a sequence, using a syntax such as seq[k], and each uses a low-level concept known as an [array](https://docs.python.org/3/library/array.html) to represent the sequence. Primary support for arrays is in a module named array. That module defines a class, also named array, providing compact storage for arrays of primitive data types. Array class constructor requires a type code as a first parameter, which is a character that designates the type of data that is stored in the array.
 ```python
 from array import array
 primes = array(‘i’, [2, 3, 5, 7, 11, 13, 17, 19])
 ```
-Python's list class is using a form of dynamic arrays for its storage. By running the following code, you will see that when appending elements to a list, any reserved capacity will eventually be exhausted. In that case, the class requests a new, larger array from the system, and initializes the new array so that its prefix matches that of the existing smaller array. 
+Python's list class uses a form of dynamic arrays for its storage. The following code appends elements to a list, and the reserved capacity is eventually exhausted. In that case, the class requests a new, larger array from the system and initializes the new array so that its prefix matches that of the existing smaller array. 
 ```python
 import sys
 data = []
