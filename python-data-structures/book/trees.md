@@ -4,7 +4,7 @@
 In many different domains, we need to organize data in hierarchical structures. For example, think about big organizations, file systems, databases, class hierarchies, family trees, etc. Linear data structures like arrays, queues, and linked lists aren't expressive enough to represent such data. 
 
 ## General Trees
-Tree is a data structure that consists of a root and nodes. Root is a special node that has no parent. All other nodes have exactly one parent and 0 or more children. Children that share the same parent are called siblings. Nodes that have no children are called leaves. Nodes that have children are called internal nodes.
+A Tree is a data structure that consists of a root and nodes. A Root is a special node that has no parent. All other nodes have exactly one parent and 0 or more children. Children that share the same parent are called siblings. Nodes that have no children are called leaves. Nodes that have children are called internal nodes.
 ```Python
 class TreeNode
     def __init__(self, value, parent=None, children=[]):
@@ -16,7 +16,7 @@ A tree is <em>ordered</em> if there is a meaningful linear order among the child
 The tree T then supports the following accessor methods:
 
 ## Binary Trees
-Binary Trees are General Trees that consist of nodes with up to two children. Binary trees are ordered trees. Each child can be either left or right. A binary tree is proper if each nodes has exactly 2 or 0 children (aka full binary tree).
+Binary Trees are General Trees consisting of nodes with up to two children. Binary trees are ordered trees. Each child can be either left or right. A binary tree is proper if each node has exactly 2 or 0 children (aka full binary tree).
 The following function constructs a binary search tree:
 ```Python
 def insert(parent, key):
