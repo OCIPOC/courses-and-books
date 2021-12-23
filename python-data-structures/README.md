@@ -36,5 +36,6 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Zigzag Conversion](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/zigzag-conversion.ipynb)
 - [Recover Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/recover-bst.ipynb)
 - [Validate Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/validate-bst.ipynb)
+- [Recover Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/recover-bst.ipynb)
 
 
