@@ -37,5 +37,6 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Recover Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/recover-bst.ipynb)
 - [Validate Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/validate-bst.ipynb)
 - [Unique Binary Search Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/unique-bst.ipynb)
+- [Same Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/same-binary-tree.ipynb)
 
 
