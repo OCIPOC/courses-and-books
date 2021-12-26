@@ -61,9 +61,6 @@ print(data) # [1, 4, 2, 8, 7, 5, 3]
 print(heapq.heapreplace(data, 10)) # 1
 print(data) # [2, 4, 3, 8, 7, 5, 10]
 
-print(heapq.nlargest(3, data))
-print(heapq.nsmallest(3, data))
-
 print(heapq.nlargest(3, data)) # [10, 8, 7]
 print(heapq.nsmallest(3, data)) # [2, 3, 4]
 ```
