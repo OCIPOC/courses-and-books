@@ -26,20 +26,47 @@ Both implementations have at least one operation with the time complexity of O(n
 ## Heaps
 Heaps are [complete binary trees](https://www.programiz.com/dsa/complete-binary-tree) for which every parent node has a value less than or equal to any of its children.
 Heaps implementation of Priority Queues:
-| Operation | Sorted Queues | Unsorted Queues | Heaps    |
-| :-------: | :-----------: | :-------------: | :---:    |
-| add       | O(n)          | O(1)            | O(log n) |
-| min       | O(1)          | O(n)            | O(log n) |
-| rem_min   | O(1)          | O(n)            | O(log n) |
-| is_empty  | O(1)          | O(1)            | O(1)     |
-| len       | O(1)          | O(1)            | O(1)     |
-
-
+| Operation | Sorted Queues | Unsorted Queues | Heaps     |
+| :-------: | :-----------: | :-------------: | :---:     |
+| add       | O(n)          | O(1)            | O(log(n)) |
+| min       | O(1)          | O(n)            | O(1)      |
+| rem_min   | O(1)          | O(n)            | O(log(n)) |
+| is_empty  | O(1)          | O(1)            | O(1)      |
+| len       | O(1)          | O(1)            | O(1)      |
 
 
 ## Python heapq
+Heapq module in Python provides an implementation of a heap queue, aka a Priority Queue. This implementation uses arrays for which heap[k] <= heap[2*k+1] and heap[k] <= heap[2*k+2] for all k, counting elements from zero. The interesting property of a heap is that its smallest element is always the root, heap[0].
+```Python
+import heapq
 
+data = [7, 8, 2, 1, 4, 5]
 
+# list to heap in-place, in linear time.
+heapq.heapify(data)
+print(data) # [1, 4, 2, 8, 7, 5]
+
+# Push to heap, maintaining the heap invariant.
+heapq.heappush(data, 3)
+print(data) # [1, 4, 2, 8, 7, 5, 3]
+
+heapq.heappush(data, 0)
+print(data) # [0, 1, 2, 4, 7, 5, 3, 8]
+
+# Pop and return the smallest item from the heap
+print(heapq.heappop(data)) # 0
+print(data) # [1, 4, 2, 8, 7, 5, 3]
+
+# Pop and return the smallest item from the heap, and also push the new item.
+print(heapq.heapreplace(data, 10)) # 1
+print(data) # [2, 4, 3, 8, 7, 5, 10]
+
+print(heapq.nlargest(3, data))
+print(heapq.nsmallest(3, data))
+
+print(heapq.nlargest(3, data)) # [10, 8, 7]
+print(heapq.nsmallest(3, data)) # [2, 3, 4]
+```
 
 
 ##  Sorting with a Priority Queue
