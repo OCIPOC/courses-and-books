@@ -15,9 +15,14 @@ Priority Queues can be implemented by both sorted and unsorted lists.
 | Operation | Sorted Queues | Unsorted Queues |
 | :-------: | :-----------: | :-------------: |
 | add       | O(n)          | O(1)            |
+| min       | O(1)          | O(n)            |
+| rem_min   | O(1)          | O(n)            |
+| is_empty  | O(1)          | O(1)            |
+| len       | O(1)          | O(1)            |
 
 
 ## Heaps
+
 
 ##  Sorting with a Priority Queue
 
