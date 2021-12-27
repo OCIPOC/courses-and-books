@@ -39,5 +39,6 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Unique Binary Search Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/unique-bst.ipynb)
 - [Same Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/same-binary-tree.ipynb)
 - [Kth Largest Element in an Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/kth-largest-element.ipynb)
+- [Top K Frequent Elements](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/topk-frequent-elements.ipynb)
 
 
