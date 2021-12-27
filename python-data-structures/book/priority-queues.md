@@ -36,7 +36,7 @@ Heaps implementation of Priority Queues:
 
 
 ## Python heapq
-Heapq module in Python provides an implementation of a heap queue, aka a Priority Queue. This implementation uses arrays for which heap[k] <= heap[2*k+1] and heap[k] <= heap[2*k+2] for all k, counting elements from zero. The interesting property of a heap is that its smallest element is always the root, heap[0].
+Heapq module in Python implements a heap queue, aka Priority Queue. This implementation uses arrays for which heap[k] <= heap[2*k+1] and heap[k] <= heap[2*k+2] for all k, counting elements from zero. The interesting property of a heap is that its smallest element is always the root, heap[0].
 ```Python
 import heapq
 
@@ -66,7 +66,21 @@ print(heapq.nsmallest(3, data)) # [2, 3, 4]
 ```
 
 
-##  Sorting with a Priority Queue
+## Sorting with a Priority Queue
+Heap Sort can be implemented as follows:
+```Python
+def heap_sort(lst: list) -> list:
+    import heapq
+    sorted_res = []
+    heapq.heapify(lst)
+
+    while lst:
+        res.append(heapq.heappop(lst))
+    
+    return res    
+```
+Heap Sort runs in O(n*log(n)) since heappop runs in O(log(n))
+
 
 ## Adaptable Priority Queues
 
