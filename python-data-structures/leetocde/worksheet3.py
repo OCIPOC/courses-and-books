@@ -1,20 +1,24 @@
-import heapq
+import math
 
-data = [7, 8, 2, 1, 4, 5]
-heapq.heapify(data)
-print(data) # [1, 4, 2, 8, 7, 5]
+class Node:
+    def __init__(self, right, left) -> None:
+        self.left: Node = left
+        self.right: Node = right
+        
 
-heapq.heappush(data, 3)
-print(data) # [1, 4, 2, 8, 7, 5, 3]
+def build_tree(nodes: list) -> Node:
+    q = [0]
+    root = Node()
+    while q:
+        
 
-heapq.heappush(data, 0)
-print(data) # [[0, 1, 2, 4, 7, 5, 3, 8]
 
-print(heapq.heappop(data)) # 0
-print(data) # [1, 4, 2, 8, 7, 5, 3]
 
-print(heapq.heapreplace(data, 10))
-print(data)
 
-print(heapq.nlargest(3, data)) # [10, 8, 7]
-print(heapq.nsmallest(3, data)) # [2, 3, 4]
+def get_highest_score_nodes(nodes: list) -> int:
+    pass
+
+assert(get_highest_score_nodes([-1,2,0,2,0]) == 3)
+assert(get_highest_score_nodes([-1,2,0]) == 2)
+assert(get_highest_score_nodes([-1,0]) == 2)
+assert(get_highest_score_nodes([-1,3,3,5,7,6,0,0]) == 2)
