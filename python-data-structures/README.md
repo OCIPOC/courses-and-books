@@ -13,7 +13,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Linked Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/linked-lists.md)
 - [Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/trees.md)
 - [Priority Queues](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/priority-queues.md)
-- [Map, Hash Tables and Skip Lists]()
+- [Map, Hash Tables and Skip Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/maps-hashtables-skiplists.md)
 - [Search Trees]()
 - [Sorting and Selection]()
 - [Text Processing]()
