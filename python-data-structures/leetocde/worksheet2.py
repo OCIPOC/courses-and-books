@@ -1,6 +1,1 @@
-s = 'dima'
-s = ''.join(sorted(s))
-
-t = str(sorted(s))
-
-print(s, t)
+print(set([1, 2]) == set([2, 1]))
