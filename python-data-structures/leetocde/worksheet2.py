@@ -1,4 +1,6 @@
-d = { 'us': 'dollar', 'il': 'shekel' }
+s = 'dima'
+s = ''.join(sorted(s))
 
-while d:
-    print(d.popitem())
+t = str(sorted(s))
+
+print(s, t)

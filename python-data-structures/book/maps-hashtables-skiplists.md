@@ -14,9 +14,8 @@ def count_words(text: str) -> dict:
     return d
 ```
 
-
-
 ## Hash Tables
+A very naive implementation of Hash Tables is based on arrays. Array indices are keys of Hash Tables and values are elements of the array. We have to challenges in such a scenario. First, we may not wish to devote an array of length N if it is the case that N >> n. Second, Hash Table keys aren't necessarily integers. 
 
 ## Sorted Maps
 
