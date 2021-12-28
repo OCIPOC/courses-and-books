@@ -41,6 +41,8 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Kth Largest Element in an Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/kth-largest-element.ipynb)
 - [Top K Frequent Elements](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/topk-frequent-elements.ipynb)
 - [Group Anagrams](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/group-anagrams.ipynb)
+- [Longest Consecutive Sequence](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-consecutive-sequence.ipynb)
+
 
 
 
