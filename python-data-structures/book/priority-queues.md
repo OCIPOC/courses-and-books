@@ -34,6 +34,28 @@ Heaps implementation of Priority Queues:
 | is_empty  | O(1)          | O(1)            | O(1)      |
 | len       | O(1)          | O(1)            | O(1)      |
 
+Here is a array-based implementation of Heap 
+```Python
+class MinHeap:
+    def __init__(self, max_size: int) -> None:
+        self.max_size = max_size
+        self.size, self.front = 0, 0
+        self.heap = [None] * self.max_size 
+
+    def heappush(self, element):
+        if self.max_size <= self.size:
+            raise OverflowError('heap size exceeded')
+
+        self.size += 1
+        self.heap[self.size + self.front] = element
+        
+        current = self.size + self.front
+
+        while current > self.front + 1 and self.heap[current] < self.heap[current // 2]:
+            self.heap[current], self.heap[current // 2] = self.heap[current // 2], self.heap[current]
+            current = current // 2
+```
+
 
 ## Python heapq
 Heapq module in Python implements a heap queue, aka Priority Queue. This implementation uses arrays for which heap[k] <= heap[2*k+1] and heap[k] <= heap[2*k+2] for all k, counting elements from zero. The interesting property of a heap is that its smallest element is always the root, heap[0].
