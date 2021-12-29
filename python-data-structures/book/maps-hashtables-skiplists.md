@@ -36,16 +36,22 @@ To solve these problems, we will use hash and compression functions
          h += ord(character)                  # add in value of next character
         return h
     ```
-- Compression functions - map any integer to an integer in the given range [ 1...N-1 ]
-
-
-
+- Compression functions - in some cases, the result of the has function can be used immediatly. The result can be negative or exceet the capacity of the underlying array. In such cases we need compressions functions.
+    - The Division Method
+    - The MAD (Multiply-Add-and-Divide) Method
+    - Collision-Handling Schemes
+        - Separate Chaining
+        - Open Addressing
+        - Linear Probing and Its Variants
 
 
 ## Sorted Maps
+[TBD]
 
 ## Skip Lists
+[TBD]
 
 ## Sets, Multisets, and Multimaps
+[TBD]
 
 
