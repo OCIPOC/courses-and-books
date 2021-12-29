@@ -17,7 +17,7 @@ def count_words(text: str) -> dict:
 ## Hash Tables
 A very naive implementation of Hash Tables is based on arrays. Array indices are keys of Hash Tables and values are elements of the array. We have two challenges in such a scenario. 
 - First, we may not wish to devote an array of length N if it is the case that N >> n. 
-- Second, Hash Table keys aren't necessarily integers. 
+- Second, Hash Table keys aren't necessarily integers.   
 To solve these problems we will use hash and compression functions
 - Hash functions - map any key to an integer 
     - Bit Representation as Integer: any var which size is less or equal to size of integer can be mapped. In case when var is larger then size of int, we can do XOR on all parts
