@@ -4,7 +4,7 @@
 There are a lot of scenarios in software engineering when we need to map a key to a certain value. Consider a lookup table that maps countries to currencies, ip addresses to geo-locations, phone models to os names, etc. We note that the keys (the country names) are assumed to be unique, but the values (the currency units) are not necessarily unique
 
 ## Maps and Dictionaries
-Python's [dict class](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) represents an abstraction known as a dictionary in which unique keys are mapped to associated values. Consider the problem of counting the number of occurrences of words in a list.
+Python's [dict class](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) represents an abstraction known as a dictionary in which unique keys are mapped to associated values. Consider the problem of counting the number of occurrences of words in a text.
 ```Python
 def count_words(text: str) -> dict:
     d = {}
@@ -15,7 +15,7 @@ def count_words(text: str) -> dict:
 ```
 
 ## Hash Tables
-A very naive implementation of Hash Tables is based on arrays. Array indices are keys of Hash Tables and values are elements of the array. We have two challenges in such a scenario. <strong>First</strong>, we may not wish to devote an array of length N if it is the case that N >> n. <strong>Second</strong>, Hash Table keys aren't necessarily integers.   
+A simple implementation of Hash Tables is based on arrays. Array indices are keys of Hash Tables, and the array elements are values. We have two challenges in such a scenario. <strong>First</strong>, we may not wish to devote an array of length N if it is the case that N >> n. <strong>Second</strong>, Hash Table keys aren't necessarily integers.   
 To solve these problems, we will use hash and compression functions
 - Hash functions - map any key to an integer 
     - Bit Representation as Integer: any var with the size less or equal to the integer size can be mapped. In case when var is larger than the size of int, we can do XOR on all parts
@@ -36,11 +36,11 @@ To solve these problems, we will use hash and compression functions
          h += ord(character)                  # add in value of next character
         return h
     ```
-- Compression functions - in some cases, the result of the hash function can't be used immediatly. The result can be negative or exceet the capacity of the underlying array. In such cases we need compressions functions.
+- Compression functions - in some cases, the hash function results can't be used immediately. Results can be negative or exceed the capacity of the underlying array. In such cases, we need compressions functions.
     - The Division Method - <strong>i mod N</strong>
     - The MAD (Multiply-Add-and-Divide) Method - <strong>((a*i + b) mod p)  mod N</strong>
     - Collision-Handling Schemes
-        - Separate Chaining - use secondary container. For example, the value of the Hash Table is a list of values
+        - Separate Chaining - use a secondary container. For example, the value of the Hash Table is a list of values
         - Open Addressing - 
             - Linear Probing - if h(k) = j and j is taken, try j+1
             - Quadratic Probing - h(k) + i^2 for i = 0...n  
