@@ -53,6 +53,8 @@ To solve these problems, we will use hash and compression functions
 [TBD]
 
 ## Sets, Multisets, and Multimaps
-[TBD]
+- A set is an unordered collection of elements, without duplicates, that typically supports efficient membership tests. In essence, elements of a set are like keys of a map, but without any auxiliary values.
+- A multiset (also known as a bag) is a set-like container that allows duplicates.
+- A multimap is similar to a traditional map, in that it associates values with keys; however, in a multimap the same key can be mapped to multiple values. For example, the index of this book maps a given term to one or more locations at which the term occurs elsewhere in the book.
 
 
