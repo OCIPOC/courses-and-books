@@ -7,3 +7,7 @@ def get_hash_code(s: str) -> str:
 
 
 
+print(5 % 2)
+
+
+

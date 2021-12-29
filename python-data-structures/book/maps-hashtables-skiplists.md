@@ -36,13 +36,14 @@ To solve these problems, we will use hash and compression functions
          h += ord(character)                  # add in value of next character
         return h
     ```
-- Compression functions - in some cases, the result of the has function can be used immediatly. The result can be negative or exceet the capacity of the underlying array. In such cases we need compressions functions.
-    - The Division Method
-    - The MAD (Multiply-Add-and-Divide) Method
+- Compression functions - in some cases, the result of the hash function can't be used immediatly. The result can be negative or exceet the capacity of the underlying array. In such cases we need compressions functions.
+    - The Division Method - <strong>i mod N</strong>
+    - The MAD (Multiply-Add-and-Divide) Method - <strong>((a*i + b) mod p)  mod N</strong>
     - Collision-Handling Schemes
-        - Separate Chaining
-        - Open Addressing
-        - Linear Probing and Its Variants
+        - Separate Chaining - use secondary container. For example, the value of the Hash Table is a list of values
+        - Open Addressing - 
+            - Linear Probing - if h(k) = j and j is taken, try j+1
+            - Quadratic Probing - h(k) + i^2 for i = 0...n  
 
 
 ## Sorted Maps
