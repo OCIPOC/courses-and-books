@@ -16,11 +16,25 @@ def count_words(text: str) -> dict:
 
 ## Hash Tables
 A very naive implementation of Hash Tables is based on arrays. Array indices are keys of Hash Tables and values are elements of the array. We have two challenges in such a scenario. <strong>First</strong>, we may not wish to devote an array of length N if it is the case that N >> n. <strong>Second</strong>, Hash Table keys aren't necessarily integers.   
-To solve these problems we will use hash and compression functions
+To solve these problems, we will use hash and compression functions
 - Hash functions - map any key to an integer 
-    - Bit Representation as Integer: any var which size is less or equal to size of integer can be mapped. In case when var is larger then size of int, we can do XOR on all parts
-    - Polynomial HashCodes:
-    - Cyclic Shift HashCodes
+    - Bit Representation as Integer: any var with the size less or equal to the integer size can be mapped. In case when var is larger than the size of int, we can do XOR on all parts
+    ```Python
+    def hash_code(s):
+        for c in s:
+             
+    ```
+    - Polynomial HashCodes: the XOR method that is used as a solution above won't work for strings that consist of the same chars but in a different order
+    - Cyclic Shift HashCodes  
+    ```Python
+    def hash_code(s):
+        mask = (1 << 32) − 1                   # limit to 32-bit integers
+        h = 0
+        for character in s:
+        h = (h << 5 & mask) | (h >> 27)      # 5-bit cyclic shift of running sum
+        h += ord(character)                  # add in value of next character
+    return h
+    ```
 - Compression functions - map any integer to an integer in the given range [ 1...N-1 ]
 
 
