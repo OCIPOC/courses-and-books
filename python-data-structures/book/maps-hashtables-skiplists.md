@@ -21,19 +21,20 @@ To solve these problems, we will use hash and compression functions
     - Bit Representation as Integer: any var with the size less or equal to the integer size can be mapped. In case when var is larger than the size of int, we can do XOR on all parts
     ```Python
     def hash_code(s):
-        for c in s:
-             
+        from operator import xor
+        from functools import reduce
+        return reduce(lambda x, y: xor(x, ord(y)), s, 0)
     ```
-    - Polynomial HashCodes: the XOR method that is used as a solution above won't work for strings that consist of the same chars but in a different order
+    - Polynomial HashCodes: the XOR method doesn't work for strings that consist of the same chars but in a different order. In this case we can use  polynomial hashcodes. The idea is to give for diffrent parts diffrent weights
     - Cyclic Shift HashCodes  
     ```Python
     def hash_code(s):
         mask = (1 << 32) − 1                   # limit to 32-bit integers
         h = 0
         for character in s:
-        h = (h << 5 & mask) | (h >> 27)      # 5-bit cyclic shift of running sum
-        h += ord(character)                  # add in value of next character
-    return h
+            h = (h << 5 & mask) | (h >> 27)      # 5-bit cyclic shift of running sum
+         h += ord(character)                  # add in value of next character
+        return h
     ```
 - Compression functions - map any integer to an integer in the given range [ 1...N-1 ]
 
