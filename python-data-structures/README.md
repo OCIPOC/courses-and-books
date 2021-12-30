@@ -44,7 +44,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Top K Frequent Elements](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/topk-frequent-elements.ipynb)
 - [Group Anagrams](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/group-anagrams.ipynb)
 - [Longest Consecutive Sequence](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-consecutive-sequence.ipynb)
-- [Minimized Maximum of Products Distributed to Any Store](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/minimized-maximum-products.ipynb)
+- [Minimized Maximum of Products](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/minimized-maximum-products.ipynb)
 
 
 
