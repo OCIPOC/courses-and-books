@@ -45,6 +45,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Group Anagrams](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/group-anagrams.ipynb)
 - [Longest Consecutive Sequence](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-consecutive-sequence.ipynb)
 - [Minimized Maximum of Products](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/minimized-maximum-products.ipynb)
+- [Remove Nth Node From End of List](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/remove-nth-node-from-end.ipynb)
 
 
 
