@@ -10,7 +10,8 @@ A binary Search Tree is a Tree data structure whose internal nodes store a key t
 | space     | O(n)          | O(n)            |
 | search    | O(log n)      | O(n)            |
 | delete    | O(log n)      | O(n)            |
-| insert    | O(log n)      | O(n)            |
+| insert    | O(log n)      | O(n)            |  
+
 In applications where one cannot guarantee the random nature of updates, it is better to rely on variations of search trees
 
 ## Balanced Search Trees
