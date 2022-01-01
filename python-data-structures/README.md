@@ -27,6 +27,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)
 - [Three Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/3-sum.ipynb)
 - [Three Sum Closest](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/3-sum-closest.ipynb)
+- [Four Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/4-sum.ipynb)
 - [Add Two Numbers](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/add-two-numbers.ipynb)
 - [Longest Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-substring.ipynb)
 - [Longest Palindromic Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/longest-palindrome.ipynb)
