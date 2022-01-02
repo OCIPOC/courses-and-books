@@ -47,10 +47,28 @@ To solve these problems, we will use hash and compression functions
 
 
 ## Sorted Maps
-[TBD]
+Consider a flights search engine that relies on the flights database. The database consists of Flights objects (origin, destination, date, time). The search engine returns a list of tuples for any (origin, destination, date) query. To implement such a behavior, we can use Sorted Maps. A Sorted Map M has the following methods:
+- M[k]: return a value for the given key k
+- M[k] = v: update the key k with the value v
+- del M[k]: delete the key k from the map M
+- M.getrange(from_key, to_key): return map item with the given key ranges
+- M.gt(k): returns all items with the keys greater the k
+- M.le(k): returns all items with the kyes less or equals to k
+
+Sorted Map:
+| Operation   | Complexity    |
+| :---------: | :-----------: |
+| len(M)      | O(1)          |
+| k in M      | O(log n)      |
+| M[k]        | O(n)/O(log v) | <- new vs existing key
+| del M[k]    | O(n)          |
+| M.get_range | O(s + log(n)) |
+| M.gt/M.le   | O(log n)      |
+
+
 
 ## Skip Lists
-[TBD]
+In computer science, a skip list is a probabilistic data structure that allows O(log n) O}}(\log n) search complexity as well as {\displaystyle {\mathcal {O}}(\log n)}{\mathcal {O}}(\log n) insertion complexity within an ordered sequence of {\displaystyle n}n elements
 
 ## Sets, Multisets, and Multimaps
 - A set is an unordered collection of elements, without duplicates, that typically supports efficient membership tests. In essence, elements of a set are like keys of a map, but without any auxiliary values.
