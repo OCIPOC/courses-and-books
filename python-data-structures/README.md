@@ -48,6 +48,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Minimized Maximum of Products](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/minimized-maximum-products.ipynb)
 - [Remove Nth Node From End of List](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/remove-nth-node-from-end.ipynb)
 - [Convert Sorted Array to BST](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/sorted-array-to-bst.ipynb)
+- [Binary Tree Level Order Traversal](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/tree-level-order.ipynb)
 
 
 
