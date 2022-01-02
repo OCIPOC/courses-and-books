@@ -56,11 +56,12 @@ Consider a flights search engine that relies on the flights database. The databa
 - M.le(k): returns all items with the kyes less or equals to k
 
 Sorted Map:
-| Operation   | Complexity    |
+| Operation   | Complexity    |                      
 | :---------: | :-----------: |
 | len(M)      | O(1)          |
 | k in M      | O(log n)      |
-| M[k]        | O(n)/O(log v) | <- new vs existing key
+| M[k]        | O(n)/O(log v) | 
+|             | ^ new/exist.. |
 | del M[k]    | O(n)          |
 | M.get_range | O(s + log(n)) |
 | M.gt/M.le   | O(log n)      |
