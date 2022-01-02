@@ -67,9 +67,19 @@ Sorted Map:
 | M.gt/M.le   | O(log n)      |
 
 
-
 ## Skip Lists
-In computer science, a skip list is a probabilistic data structure that allows O(log n) O}}(\log n) search complexity as well as {\displaystyle {\mathcal {O}}(\log n)}{\mathcal {O}}(\log n) insertion complexity within an ordered sequence of {\displaystyle n}n elements
+In simple words, Skip Lists allow search like in the sorted arrays and insert and delete like in linked lists. Sorted Maps can be imlemented using Skip Lists. 
+
+Skip lists time complexity:
+| Operation | Average       | Worst case      |
+| :-------: | :-----------: | :-------------: |
+| Space     | O(n)          | O(n * long n)   |
+| Search    | O(log n)      | O(n)            |
+| Insert    | O(log n)      | O(n)            |
+| Delete    | O(log n)      | O(n)            |
+
+Skip Lists have simple internal structure comparing to the self balanced binary search trees ([AVL](https://en.wikipedia.org/wiki/AVL_tree), [Read Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)). And it can be used when building [concurrent data structure without locks](https://en.wikipedia.org/wiki/Non-blocking_algorithm). 
+But when it comes to performance both AVL and Red Black trees provide much better performance for search, insert and delete.
 
 ## Sets, Multisets, and Multimaps
 - A set is an unordered collection of elements, without duplicates, that typically supports efficient membership tests. In essence, elements of a set are like keys of a map, but without any auxiliary values.
