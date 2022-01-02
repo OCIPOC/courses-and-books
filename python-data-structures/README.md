@@ -21,7 +21,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Memory Management And B-Trees]()
 - [Appendix A: Character Strings in Python]()
 - [Appendix B: Useful Mathematical Facts]()
-- [Appendix C: Bitwise opeartion in Python]()  
+- [Appendix C: Bitwise opeartion in Python](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/bitwise-operations.md)  
 
 ## LeetCode Problems
 - [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)
