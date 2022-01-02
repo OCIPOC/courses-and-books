@@ -78,7 +78,7 @@ Skip lists time complexity:
 | Insert    | O(log n)      | O(n)            |
 | Delete    | O(log n)      | O(n)            |
 
-Skip Lists have simple internal structure comparing to the self balanced binary search trees ([AVL](https://en.wikipedia.org/wiki/AVL_tree), [Read Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)). And it can be used when building [concurrent data structure without locks](https://en.wikipedia.org/wiki/Non-blocking_algorithm). 
+Skip Lists have simple internal structure comparing to the self balanced binary search trees ([AVL](https://en.wikipedia.org/wiki/AVL_tree), [Read Black](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)). And it can be used when building [concurrent data structure without locks](https://en.wikipedia.org/wiki/Non-blocking_algorithm). 
 But when it comes to performance both AVL and Red Black trees provide much better performance for search, insert and delete.
 
 ## Sets, Multisets, and Multimaps
