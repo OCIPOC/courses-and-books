@@ -1,18 +1,23 @@
-def subtract(x, y):
-    if y == 0:
-        return x
+from time import sleep
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+def build(nums: list, start, end, msg = '') -> TreeNode:
+    print(nums, start, end, msg)
+    sleep(1)
+    if start < end:
+        mid = (end - start) // 2
+        left = build(nums, start, mid, 'l')
+        right = build(nums, mid + 1, end, 'r')
+        return TreeNode(nums[mid], left, right)
     else:
-        return subtract(x ^ y, ((~x) & y) << 1)
+        return None
 
 
-def divide(x, y):
-    res = 0
-    while x > 0:
-        x = subtract(x, y)
-        res += 1
-    return res
-
-print(subtract(10, -2))
-print(divide(600, 15))
-
-
+nums = [-10,-3,0,5,9]
+print(build(nums, 0, len(nums)-1))
