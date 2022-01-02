@@ -73,7 +73,7 @@ In simple words, Skip Lists allow search like in the sorted arrays and insert an
 Skip lists time complexity:
 | Operation | Average       | Worst case      |
 | :-------: | :-----------: | :-------------: |
-| Space     | O(n)          | O(n * long n)   |
+| Space     | O(n)          | O(n long n)     |
 | Search    | O(log n)      | O(n)            |
 | Insert    | O(log n)      | O(n)            |
 | Delete    | O(log n)      | O(n)            |
