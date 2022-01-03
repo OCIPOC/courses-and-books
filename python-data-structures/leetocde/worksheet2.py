@@ -1,11 +1,9 @@
 from typing import NamedTuple
 
 
-from typing import NamedTuple
-
-class A(NamedTuple):
-    a: str
-
-
-a = A('')
-print(a)
+def has_missing_values(nums: list) -> bool:
+    result = [0 for _ in nums]
+    for num in nums:
+        if num < len(result) - 1 and num > 0:
+            result[num] = 1
+    return sum(result) < len(nums) - 1
