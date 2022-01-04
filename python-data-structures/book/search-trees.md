@@ -25,11 +25,11 @@ def rotate(root: Node) -> Node:
         root.right = right
     return root
 ```
-Another way to rebalance is to copy the tree to array by inorder, and then to rebuild the tree by using binary tree build from te middle.
+Another way to rebalance is to copy the tree to the array using in-order traversal. Then rebuild the tree starting from the middle of the array.
 
 
 ## AVL Trees
-AVL is a self-balancing binary search tree (BST) where the heights of the two child subtrees of any node differ by at most one. If at any time they differ by more than one, rebalancing is done to restore this property. Lookup, insertion, and deletion all take O(log n) time in both the average and worst cases. Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
+AVL is a self-balancing binary search tree (BST) where the heights of both subtrees of any node differ by at most one. Rebalancing is done to restore this property after insert and delete operations. Lookup, insertion, and deletion all take O(log n) time in both the average and worst cases. Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
 ```Python
 class TreeNode(object):
     def __init__(self, val):
@@ -94,41 +94,12 @@ class AVL_Tree(object):
         # Return the new root
         return y
 
-    def rightRotate(self, z):
-        y = z.left
-        T3 = y.right
-        # Perform rotation
-        y.right = z
-        z.left = T3
-        # Update heights
-        z.height = 1 + max(self.getHeight(z.left),
-                        self.getHeight(z.right))
-        y.height = 1 + max(self.getHeight(y.left),
-                        self.getHeight(y.right))
-        # Return the new root
-        return y
- 
-    def getHeight(self, root):
-        if not root:
-            return 0
-        return root.height
- 
-    def getBalance(self, root):
-        if not root:
-            return 0
-        return self.getHeight(root.left) - self.getHeight(root.right)
- 
-    def preOrder(self, root):
-        if not root:
-            return
-        print("{0} ".format(root.val), end="")
-        self.preOrder(root.left)
-        self.preOrder(root.right)
 ```
 
-
 ## Splay Trees
+A splay tree is a [BST](https://en.wikipedia.org/wiki/Binary_search_tree) with the additional property that recently accessed elements are quick to access again. A splay tree performs insertion, look-up and removal in O(log n) [amortized time](). For many sequences of non-random operations, splay trees perform better than other search trees, even performing better than O(log n) for sufficiently non-random patterns.
 
 ## (2,4) Trees
 
 ## Red-Black Trees
+The 
