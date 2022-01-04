@@ -50,7 +50,5 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Convert Sorted Array to BST](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/sorted-array-to-bst.ipynb)
 - [Binary Tree Level Order Traversal](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/tree-level-order.ipynb)
 - [First and Last Position of Element in Sorted Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/first-last-in-sorted-array.ipynb)
-
-
-
+- [Merge Two Sorted Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/merge-two-sorted-lists.ipynb)
 
