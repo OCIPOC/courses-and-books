@@ -1,11 +1,9 @@
 from typing import NamedTuple
 
 
-def has_missing_values(nums: list) -> bool:
-    result = [0 for _ in nums]
-    for num in nums:
-        if num < len(result) - 1 and num > 0:
-            result[num] = 1
-        else:
-            return True
-    return sum(result) < len(nums) - 1
+nums = [[0, '', 2], [3, 4, 5], [6, 7, 8]]
+rows, cols = range(len(nums)), range(len(nums[0]))
+
+print(nums)
+print([[nums[i][j] for j in cols if nums[i][j] != ''] for i in rows])
+print([[nums[j][i] for j in rows if nums[j][i] != ''] for i in cols])

@@ -97,7 +97,13 @@ class AVL_Tree(object):
 ```
 
 ## Splay Trees
-A splay tree is a [BST](https://en.wikipedia.org/wiki/Binary_search_tree) with the additional property that recently accessed elements are quick to access again. A splay tree performs insertion, look-up and removal in O(log n) [amortized time](). For many sequences of non-random operations, splay trees perform better than other search trees, even performing better than O(log n) for sufficiently non-random patterns.
+A splay tree is a [BST](https://en.wikipedia.org/wiki/Binary_search_tree) with the additional property that recently accessed elements are quick to access again. A splay tree performs insertion, look-up and removal in O(log n) [amortized time](https://en.wikipedia.org/wiki/Amortized_analysis). For many sequences of non-random operations, splay trees perform better than other search trees, even performing better than O(log n) for sufficiently non-random patterns.
+| Operation | Average       | Worst case      |
+| :-------: | :-----------: | :-------------: |
+| space     | O(n)          | O(n)            |
+| search    | O(log n)      | O(n)            |
+| delete    | O(log n)      | O(n)            |
+| insert    | O(log n)      | O(n)            |  
 
 ## (2,4) Trees
 
