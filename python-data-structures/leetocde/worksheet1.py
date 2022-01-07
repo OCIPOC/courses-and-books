@@ -1,8 +1,9 @@
-import bisect
+nums = [(1, 'a'), (2, 'b'), (3, 'a'), (4, 'b'), (1, 'b')]
 
-nums = []
+#nums.sort()
+#nums.sort(reverse=True)
+#nums.sort(key=lambda x: x[1])
 
-for i in [5, 2, 1, 7]:
-    print(i, nums, bisect.bisect(nums, i))
-    bisect.insort(nums, i)
 
+x = sorted(nums)
+print(nums, x)
