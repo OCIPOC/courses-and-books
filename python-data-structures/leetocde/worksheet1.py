@@ -1,13 +1,17 @@
-nums = [(1, 'a'), (2, 'b'), (3, 'a'), (4, 'b'), (1, 'b')]
+from functools import reduce
 
-nums.sort()
-print(nums)
+def merge(intervals: list) -> list:
+    intervals.sort()
+    start = 1
+    while start < len(intervals):
+        if intervals[start][0] <= intervals[start - 1][1]:
+            end = max(intervals[start][1], intervals[start - 1][1])
+            intervals[start - 1][1] = end
+            intervals.pop(start)
+        else:
+            start = start + 1
+    
+    return intervals
 
-nums.sort(reverse=True)
-print(nums)
-
-nums.sort(key=lambda x: x[1])
-print(nums)
-
-nums.sort(key=lambda x: (x[1], x[0]))
-print(nums)
+assert merge([[1,4],[4,5]]) == [[1,5]]
+assert merge([[1,3],[2,6],[8,10],[15,18]]) == [[1,6],[8,10],[15,18]]
