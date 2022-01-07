@@ -16,7 +16,7 @@ nums.sort() # nums = []
 nums.sort(reverse=True) # 
 nums.sort(key=lambda x: x[1])
 ```
-This method reordering the elements of the list by using <em><</em> operator. Python also has more general <em>sorted</em> function. It can be used with any sequence and it is immutable. This function return the sorted version of the inyt sequence
+This method reordering the elements of the list by using [<]() operator. Python also has more general <em>sorted</em> function. It can be used with any sequence and it is immutable. This function return the sorted version of the inyt sequence
 ```Python
 sorted('green') # -> ['e', 'e', 'g', 'n', 'r']
 nums = [1, 3, 2]
