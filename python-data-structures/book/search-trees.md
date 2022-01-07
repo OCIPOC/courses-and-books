@@ -1,7 +1,7 @@
 # Search Trees
 
 ## Introduction
-A Tree is a non-linear data structure. It can store hierarchical data. In case when tree nodes are ordered we can use trees for search. Another application is for storing large amounts of data. Unlike arrays, pointer implementation has no upper limit for the number of nodes.
+A Search Tree is a tree data structure used for locating specific keys from within a set. Each key in the Search Tree is greater than any keys in left subtrees and less than any keys in subtrees on the right
 
 ## Binary Search Trees
 A binary Search Tree is a Tree data structure whose internal nodes store a key that is greater than all the keys in the node’s left subtree and less than those in its right subtree. On average, a binary search tree with n keys generated from a random series of insertions and removals of keys has expected height O(log n). 
@@ -106,6 +106,23 @@ A splay tree is a [BST](https://en.wikipedia.org/wiki/Binary_search_tree) with t
 | insert    | O(log n)      | O(n)            |  
 
 ## (2,4) Trees
+A 2–4 (2-3-4) tree is a self-balancing data structure that can be used to implement dictionaries. The numbers mean a tree where every node with children (internal node) has either two, three, or four child nodes:
+- a 2-node has one data element, and if internal has two child nodes;
+- a 3-node has two data elements, and if internal has three child nodes;
+- a 4-node has three data elements, and if internal has four child nodes;
+| Operation | Average       | Worst case      |
+| :-------: | :-----------: | :-------------: |
+| space     | O(n)          | O(n)            |
+| search    | O(log n)      | O(log n)        |
+| delete    | O(log n)      | O(log n)        |
+| insert    | O(log n)      | O(log n)        | 
 
 ## Red-Black Trees
-The 
+A Red–Black Tree is a self-balancing binary search tree. Each node stores an extra bit representing the node's color (red or black), used to ensure that the tree remains balanced during insertions and deletions
+| Operation | Average        | Worst case      |
+| :-------: | :------------: | :-------------: |
+| space     | O(n)           | O(n)            |
+| search    | O(log n)       | O(log n)        |
+| delete    | O(1) amortized | O(log n)        |
+| insert    | O(1) amortized | O(log n)        | 
+

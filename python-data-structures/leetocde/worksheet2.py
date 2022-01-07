@@ -1,9 +1,22 @@
-from typing import NamedTuple
+
+def next_permutation(nums: list) -> list:
+    def find_lowest_gt(nums, idx):
+        lowest = idx
+        for i in range(idx + 1, len(nums)):
+            if nums[i] 
+
+    def sort()
+    
+    last_idx, max_val = None, None
+    for i in range(len(nums) - 1, -1, -1):
+        last_idx = i
+        if max_val and max_val > nums[i]:
+            idx = find_lowest_gt(nums, i)
+            nums[i], nums[idx] = nums[idx], nums[i]
+            break
+        else:
+            max_val = nums[i]
+    sort(nums, i + 1)
 
 
-nums = [[0, '', 2], [3, 4, 5], [6, 7, 8]]
-rows, cols = range(len(nums)), range(len(nums[0]))
-
-print(nums)
-print([[nums[i][j] for j in cols if nums[i][j] != ''] for i in rows])
-print([[nums[j][i] for j in rows if nums[j][i] != ''] for i in cols])
+print(next_permutation([1,3,2]))
