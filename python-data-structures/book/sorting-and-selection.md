@@ -1,8 +1,22 @@
 # Sorting and Selection
 
 ## Introduction
+Sorting algorithms put elements of the input into an order. Efficient sorting is important for [search](https://en.wikipedia.org/wiki/Search_algorithm) and [merge](https://en.wikipedia.org/wiki/Merge_algorithm) algorithms. The output of sorting satisfies two conditions:
+- Output is in [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) order
+- Output is a [permutation](https://en.wikipedia.org/wiki/Permutation) of the input  
 
 ## Merge Sort
+Merge Sort creates a binary tree with the heigh logn. Each level of the binary tree is sorted and the merged to the sorted output.
+```Python
+def merge_sort(s: list) ->list:
+    if len(s) < 2:
+        return s
+    else:
+        mid = len(s) // 2
+        left = merge_sort(s[0:mid])
+        right = merge_sort(s[mid:])
+        return merge(left, right)
+``` 
 
 ## Quick Sort
 
