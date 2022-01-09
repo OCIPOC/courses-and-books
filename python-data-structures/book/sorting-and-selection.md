@@ -27,7 +27,7 @@ Quick Sort is similar to the Merge Sort in a way that it relies on [divide and c
 | Operation | Worst case |      
 | :-------: | :--------: |
 | space     | O(log n)   |
-| time      | O(log 1)   |
+| time      | O(n)       |
 
 
 ## Comparing Sorting
