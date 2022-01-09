@@ -17,6 +17,11 @@ def merge_sort(s: list) ->list:
         right = merge_sort(s[mid:])
         return merge(left, right)
 ``` 
+| Operation | Worst case |      
+| :-------: | :--------: |
+| space     | O(n)       |
+| time      | O(log n)   |
+
 
 ## Quick Sort
 
