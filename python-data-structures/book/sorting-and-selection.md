@@ -1,7 +1,7 @@
 # Sorting and Selection
 
 ## Introduction
-Sorting algorithms put elements of the input into an order. Efficient sorting is important for [search](https://en.wikipedia.org/wiki/Search_algorithm) and [merge](https://en.wikipedia.org/wiki/Merge_algorithm) algorithms. The output of sorting satisfies two conditions: output is in [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) order, and is a [permutation](https://en.wikipedia.org/wiki/Permutation) of the input  
+Sorting algorithms put elements of the input into an order. Efficient sorting is important for [search](https://en.wikipedia.org/wiki/Search_algorithm) and [merge](https://en.wikipedia.org/wiki/Merge_algorithm) algorithms. The output of sorting satisfies two conditions: output is in [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) order, and is a [permutation](https://en.wikipedia.org/wiki/Permutation) of the input.  
 
 ## Merge Sort
 Merge Sort creates a binary tree with the heigh=<em>log(n)</em>. Each level of the binary tree is sorted and merged to the sorted output. Merge sort is a [divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) algorithm and most implementations produce a [stable sort](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability).
@@ -22,6 +22,13 @@ def merge_sort(s: list) ->list:
 
 
 ## Quick Sort
+Quick Sort is similar to the Merge Sort in that it relies on [divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm). On each step, Quick Sort calculates a pivot point. Elements that are less than the pivot point are moving to the left, and elements that are greater than the pivot point are moving to the right. Quick Sort has the time complexity of O(n) in the worst case. For example, think about sorted arrays as an input to Quick Sort. 
+
+| Operation | Worst case |      
+| :-------: | :--------: |
+| space     | O(log n)   |
+| time      | O(log 1)   |
+
 
 ## Comparing Sorting
 
