@@ -1,9 +1,7 @@
 # Sorting and Selection
 
 ## Introduction
-Sorting algorithms put elements of the input into an order. Efficient sorting is important for [search](https://en.wikipedia.org/wiki/Search_algorithm) and [merge](https://en.wikipedia.org/wiki/Merge_algorithm) algorithms. The output of sorting satisfies two conditions:
-- Output is in [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) order
-- Output is a [permutation](https://en.wikipedia.org/wiki/Permutation) of the input  
+Sorting algorithms put elements of the input into an order. Efficient sorting is important for [search](https://en.wikipedia.org/wiki/Search_algorithm) and [merge](https://en.wikipedia.org/wiki/Merge_algorithm) algorithms. The output of sorting satisfies two conditions: output is in [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) order, and is a [permutation](https://en.wikipedia.org/wiki/Permutation) of the input  
 
 ## Merge Sort
 Merge Sort creates a binary tree with the heigh=<em>log(n)</em>. Each level of the binary tree is sorted and merged to the sorted output. Merge sort is a [divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) algorithm and most implementations produce a [stable sort](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability).
