@@ -22,7 +22,7 @@ def merge_sort(s: list) ->list:
 
 
 ## Quick Sort
-Quick Sort is similar to the Merge Sort in that it relies on [divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm). On each step, Quick Sort calculates a pivot point. Elements that are less than the pivot point are moving to the left, and elements that are greater than the pivot point are moving to the right. Quick Sort has the time complexity of O(n) in the worst case. For example, think about sorted arrays as an input to Quick Sort. 
+Quick Sort is similar to the Merge Sort in a way that it relies on [divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm). On each step, Quick Sort calculates a pivot point. Elements that are less than the pivot point are moving to the left, and elements that are greater than the pivot point are moving to the right. Quick Sort has the time complexity of O(n) in the worst case. For example, think about sorted arrays as an input to Quick Sort. 
 
 | Operation | Worst case |      
 | :-------: | :--------: |
