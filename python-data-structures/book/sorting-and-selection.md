@@ -60,3 +60,4 @@ sorted(nums) # -> [1, 2, 3] and nums=[1, 3, 2]
 ```
 
 ## Selection
+Selecting the k-th smallest(largest) element from an unsorted collection of n comparable elements is known as the selection problem. We can solve this problem by sorting the collection and then indexing into the sorted sequence at index k − 1. This approach would take O(nlogn) time. This problem is also can be solved by using [prune-and-search](https://en.wikipedia.org/wiki/Prune_and_search) or [decrease-and-conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) in O(n) time. 
