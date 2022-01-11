@@ -39,8 +39,8 @@ Quick Sort is similar to the Merge Sort in a way that it relies on [divide and c
 | heap      | O(nlog n) | O(1)    | Great in small and avg sequences          |
 | merge     | O(nlog n) | O(n)    | Highly parallelizable. Python sorting     |
 | quick     | O(n^2)    | O(logn) |                                           |
-| bucket    | O(n+r)    | O(n+r)  | Assumes uniform distribution of int keys  |
-| radix     |           |         |                                           |
+| bucket    | O(n+k)    | O(n+k)  | Assumes uniform distribution of int keys  |
+| radix     | O(n*k)    | O(n+k)  |                                           |
 
 
 ## Python Built-in Sorting
