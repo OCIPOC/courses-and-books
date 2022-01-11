@@ -30,7 +30,18 @@ Quick Sort is similar to the Merge Sort in a way that it relies on [divide and c
 | time      | O(n)       |
 
 
-## Comparing Sorting
+## Comparing Sorting Algorithms
+
+| Name      | Time      | Space   | Notes                                     |
+| :-------: | :-------: | :-----: | :---------------------------------------: |
+| insertion | O(n^2)    | O(1)    |                                           |
+| selection | O(n^2)    | O(1)    |                                           |
+| heap      | O(nlog n) | O(n)    |                                           |
+| merge     | O(nlog n) | O(n)    |                                           |
+| quick     | O(n^2)    |         |                                           |
+| bucket    |           |         |                                           |
+| radix     |           |         |                                           |
+
 
 ## Python Built-in Sorting
 Python has two ways for sorting. The first one is by using [sort](https://docs.python.org/3/tutorial/datastructures.html) function of the list class. This is in place sorting:
