@@ -52,4 +52,5 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [First and Last Position of Element in Sorted Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/first-last-in-sorted-array.ipynb)
 - [Merge Two Sorted Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/merge-two-sorted-lists.ipynb)
 - [Merge Intervals](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/merge-intervals.ipynb)
+- [Stock Price Fluctuation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/stock-price-fluctuation.ipynb)
 
