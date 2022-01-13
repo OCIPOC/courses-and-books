@@ -1,16 +1,44 @@
-from typing import List
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 
-def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
-    """
-    Do not return anything, modify nums1 in-place instead.
-    """
-    for i in range(m, len(nums1)):
-        print(i, m, i -m)
-        nums1[i] = nums2[i - m]
-
-    nums1.sort()
-    print(nums1)
-
-
-print(merge(nums1=[1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n=3))
+class Codec:
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        res, stack = [], [root]
+        while stack:
+            node = stack.pop(0)
+            if node:
+                res.append(node.val)
+                stack.append(node.left)
+                stack.append(node.right)
+            else:
+                res.append('null')
+        return ','.join(str(x) for x in res)
+            
+        
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        nodes = data.split(',')
+        stack = [TreeNode(int(nodes.pop(0)))]
+        
+        while nodes:
+            node = stack.pop(0)
+            node.left = TreeNode(int(nodes.pop(0)))
+            stack.append(node.left)
+            
+            if nodes:
+                node.right = TreeNode(int(nodes.pop(0))
+                stack.append(node.right)
+        return root

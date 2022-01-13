@@ -16,7 +16,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Map, Hash Tables and Skip Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/maps-hashtables-skiplists.md)
 - [Search Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/search-trees.md)
 - [Sorting and Selection](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/sorting-and-selection.md)
-- [Text Processing]()
+- [Text Processing](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/text-processing.md)
 - [Graph Algorithms]()
 - [Memory Management And B-Trees]()
 - [Appendix A: Character Strings in Python]()
