@@ -54,7 +54,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Merge Intervals](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/merge-intervals.ipynb)
 - [Stock Price Fluctuation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/stock-price-fluctuation.ipynb)
 
-## Questions from Google Interviews
+## Google Interviews Problems
 - [Min-Stack](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/min-stack.ipynb)
 - [LRU-Cache](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/lru-cache.ipynb)
 - [Logger Rate Limiter](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/logger-rate-limiter.ipynb)
