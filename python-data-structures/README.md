@@ -57,6 +57,6 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 ## Questions from Google Interviews
 - [Min-Stack](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/min-stack.ipynb)
 - [LRU-Cache](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/lru-cache.ipynb)
-- [LRU-Cache](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/logger-rate-limiter.ipynb)
+- [Logger Rate Limiter](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/logger-rate-limiter.ipynb)
 
 
