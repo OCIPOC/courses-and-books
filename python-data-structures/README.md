@@ -58,5 +58,6 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Min-Stack](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/min-stack.ipynb)
 - [LRU-Cache](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/lru-cache.ipynb)
 - [Logger Rate Limiter](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/logger-rate-limiter.ipynb)
+- [Serialize Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/serialize-bst.ipynb)
 
 
