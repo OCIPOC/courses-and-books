@@ -53,6 +53,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Merge Two Sorted Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/merge-two-sorted-lists.ipynb)
 - [Merge Intervals](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/merge-intervals.ipynb)
 - [Stock Price Fluctuation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/stock-price-fluctuation.ipynb)
+- [Invert Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/invert-binary-tree.ipynb)
 
 ## From Google Interviews
 - [Min-Stack](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/min-stack.ipynb)
