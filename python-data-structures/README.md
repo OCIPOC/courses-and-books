@@ -60,5 +60,6 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [LRU-Cache](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/lru-cache.ipynb)
 - [Logger Rate Limiter](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/logger-rate-limiter.ipynb)
 - [Serialize Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/serialize-bst.ipynb)
+- [Merge k Sorted Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/merge-k-list.ipynb)
 
 
