@@ -1,3 +1,4 @@
-s = 'abab'
+from random import random
 
-print(s.find('a', 0))
+
+random
