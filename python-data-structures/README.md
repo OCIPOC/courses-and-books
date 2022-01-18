@@ -61,5 +61,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Logger Rate Limiter](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/logger-rate-limiter.ipynb)
 - [Serialize Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/serialize-bst.ipynb)
 - [Merge k Sorted Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/merge-k-list.ipynb)
+- [Longest Substring with At Most Two Distinct Characters](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/longest-substring-2-chars.ipynb)
+
 
 
