@@ -21,8 +21,10 @@ def find_brute(T, P):
     return −1
 ```
 ### The Boyer-Moore Algorithm
+[TBD]
 
-
+### The Knuth-Morris-Pratt Algorithm
+[TBD]
 
 ## Dynamic Programming
 
