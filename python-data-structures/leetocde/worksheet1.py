@@ -1,4 +1,8 @@
-a = {1: 2, 2: 3}
-b = {1: 2, 2: 3}
+'''
+3Sum
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+Notice that the solution set must not contain duplicate triplets.
+'''
 
-print(a == b)
+def three_sum(nums: list) -> list:
+    
