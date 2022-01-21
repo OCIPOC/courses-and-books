@@ -1,8 +1,15 @@
-'''
-3Sum
-Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
-Notice that the solution set must not contain duplicate triplets.
-'''
+def can_jump(nums: list) -> bool:
+    if len(nums) == 1:
+        return True
+    elif not nums:
+        return False
+    elif nums[0] == 0:
+        return False
+    else:
+        res = []
+        for i in range(1, nums[0] + 1):
+            res.append(can_jump(nums[i:]))
+        return True in res
 
-def three_sum(nums: list) -> list:
-    
+print(can_jump([2,3,1,1,4]))
+print(can_jump([3,2,1,0,4]))
