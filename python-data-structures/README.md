@@ -64,6 +64,8 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Longest Substring with At Most Two Distinct Characters](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/longest-substring-2-chars.ipynb)
 - [Best Time to Buy and Sell Stock](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/best-sell-stocks.ipynb)
 - [Jump Game](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/jump-game.ipynb)
+- [Coin Change](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/coin-change.ipynb)
+
 
 
 
