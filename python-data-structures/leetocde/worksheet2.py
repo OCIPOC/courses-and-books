@@ -1,24 +1,32 @@
-from itertools import count
+def coin_change(coins: list, amount: int) -> int:
+    dp = [amount + 1] * (amount + 1)
+    dp[0] = 0
+
+    for a in range(1, amount + 1):
+        for c in coins:
+            if a - c >= 0:
+                dp[a] = min(dp[a], 1 + dp[a - c]) 
+            print(a, c, dp)
+    
+    return dp[amount] if dp[amount] != amount + 1 else -1
 
 
-def coin_change(coins: list, amount: int, cache: dict) -> list:
+def coin_change2(coins: list, amount: int, cache = {}) -> int:
     if amount == 0:
-        return []
+        return 0
     elif amount < 0:
-        return [-1]
+        return -1
+    elif amount in cache:
+        return cache[amount]
     else:
-        res = []
-        for coin in coins:
-            if (amount, coin) in cache:
-                change = cache[(amount, coin)]
-            else:
-                change = [coin] + coin_change(coins, amount - coin, cache)
-                cache[(amount, coin)] = change
-
-            if len(res) == 0 or len(res) > len(change):
-                    res = change
+        results = []
+        for c in coins:
+            res = coin_change2(coins, amount - c, cache)
+            if res != -1:
+                results.append(1 + res)
+        min_change = min(results)
+        cache[amount] = min_change
+        return min_change
         
-        return res
-
-print(coin_change([2], 3, {}))
-print(coin_change([1, 5], 10, {}))
+print(coin_change([1,2,5], 11))
+print(coin_change2([1,2,5], 11))
