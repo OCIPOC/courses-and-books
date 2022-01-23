@@ -65,6 +65,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Best Time to Buy and Sell Stock](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/best-sell-stocks.ipynb)
 - [Jump Game](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/jump-game.ipynb)
 - [Coin Change](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/coin-change.ipynb)
+- [Max Product Subarray](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/max-product-subarray.ipynb)
 
 
 
