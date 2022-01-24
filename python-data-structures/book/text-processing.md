@@ -7,8 +7,8 @@ Processing, indexing, analyzing, and archiving texts are usual tasks for softwar
 In the classic pattern-matching problem, we are given a text string T of length n and a pattern string P of length m, and want to find whether P is a substring of T. If so, we may want to find the lowest index j within T at which P begins, such that T[j:j+m] equals P, or perhaps to find all indices of T at which pattern P begins.  
 
 ### Brute Force
-In brute force we just find all possible solutions. The brute force runs  with the Time Complexity of 
-O(nm) where n is the length of text T and m is the length of pattern P.
+In Brute-Force we find all possible solutions. The brute force runs  with the Time Complexity of 
+O(nm), where n is the length of text T and m is the length of pattern P.
 ```Python
 def find_brute(T, P):
     n, m = len(T), len(P) 
@@ -27,6 +27,15 @@ def find_brute(T, P):
 [TBD]
 
 ## Dynamic Programming
+Dynamic Programming is the optimization technique that solves the [overlapping subproblems](https://en.wikipedia.org/wiki/Overlapping_subproblems). For example, consider the [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) number implementation:
+```python
+def fb(n: int) -> int:
+    if n <= 1:
+        return n
+    else:
+        return fb(n-1) + fb(n-2)
+```
+For fib5 the subproblem fb2 will be recalculated three times. The runtime complexity of such a solution is O(2^n). By using Dynamic Programming, we can avoid recalculating. Here are four steps to deal with Dynamic Programming   
 
 ## Text Compression and the Greedy Method
 
