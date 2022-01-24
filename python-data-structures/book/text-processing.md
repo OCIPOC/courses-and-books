@@ -35,7 +35,11 @@ def fb(n: int) -> int:
     else:
         return fb(n-1) + fb(n-2)
 ```
-For fib5 the subproblem fb2 will be recalculated three times. The runtime complexity of such a solution is O(2^n). By using Dynamic Programming, we can avoid recalculating. Here are four steps to deal with Dynamic Programming   
+For fib5 the subproblem fb2 will be recalculated three times. The runtime complexity of such a solution is O(2^n). By using Dynamic Programming, we can avoid recalculating. Here are four steps to deal with Dynamic Programming 
+- Design a recursive solution - [Top-Down](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design)
+- Identify overlapping subproblems
+- Use [memoization](https://en.wikipedia.org/wiki/Memoization) technique
+- Design a bottom up solution 
 
 ## Text Compression and the Greedy Method
 
