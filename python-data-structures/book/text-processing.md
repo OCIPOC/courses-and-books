@@ -39,7 +39,7 @@ For fb5 the subproblem fb2 will be recalculated three times. The runtime complex
 - Simple subproblems: we can break the global problems into subproblems
 - Subproblem optimization: the optimal solution to the global problem is a composition of the optimal subproblems solutions
 - Subproblem overlap: the solution to the global problem contains solutions for overlapping subproblems. 
-<br/>
+<br />  
 Clearly, Fibonacci numbers problem has all these properties.  
 Here are four steps to deal with Dynamic Programming 
 - Design a recursive solution - [Top-Down](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design)
