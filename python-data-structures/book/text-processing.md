@@ -35,11 +35,11 @@ def fb(n: int) -> int:
     else:
         return fb(n-1) + fb(n-2)
 ```
-For fib5 the subproblem fb2 will be recalculated three times. The runtime complexity of such a solution is O(2^n). By using Dynamic Programming, we can optimize the solution. We can apply dynamic programming if the problem has the following properties:
+For fb5 the subproblem fb2 will be recalculated three times. The runtime complexity of such a solution is O(2^n). By using Dynamic Programming, we can optimize it. Generally speaking, we can apply dynamic programming if the problem has the following properties:
 - Simple subproblems: we can break the global problems into subproblems
 - Subproblem optimization: the optimal solution to the global problem is a composition of the optimal subproblems solutions
-- Subproblem overlap: Optimal solutions to subproblems can overlap   
-
+- Subproblem overlap: the solution to the global problem contains solutions for overlapping subproblems
+Clearly, Fibonacci numbers problem has all these properties.  
 Here are four steps to deal with Dynamic Programming 
 - Design a recursive solution - [Top-Down](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design)
 - Identify overlapping subproblems
