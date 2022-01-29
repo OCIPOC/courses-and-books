@@ -24,8 +24,8 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Appendix C: Bitwise opeartion in Python](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/bitwise-operations.md)  
 
 ## LeetCode Problems
-- [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)```#hashmap #loop-and-check```
-- [Three Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/3-sum.ipynb)```#sort #nested-loops #n^2```
+- [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)```#hashmap #loop-and-check #O(n)```
+- [Three Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/3-sum.ipynb)```#sort #nested-loops #O(n^2)```
 - [Three Sum Closest](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/3-sum-closest.ipynb)
 - [Four Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/4-sum.ipynb)
 - [Add Two Numbers](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/add-two-numbers.ipynb)
