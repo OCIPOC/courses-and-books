@@ -66,6 +66,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Jump Game](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/jump-game.ipynb)
 - [Coin Change](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/coin-change.ipynb)
 - [Max Product Subarray](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/max-product-subarray.ipynb)
+- [Rotate Image](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/rotate-image.ipynb)
 
 
 
