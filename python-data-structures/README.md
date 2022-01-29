@@ -24,7 +24,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Appendix C: Bitwise opeartion in Python](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/bitwise-operations.md)  
 
 ## LeetCode Problems
-- [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)``` #hasmap```
+- [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/two-sum.ipynb)``` #hashmap```
 - [Three Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/3-sum.ipynb)
 - [Three Sum Closest](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/3-sum-closest.ipynb)
 - [Four Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetocde/4-sum.ipynb)
@@ -66,7 +66,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Jump Game](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/jump-game.ipynb)
 - [Coin Change](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/coin-change.ipynb)
 - [Max Product Subarray](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/max-product-subarray.ipynb)
-- [Rotate Image](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/rotate-image.ipynb)
+- [Rotate Image](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/rotate-image.ipynb) ```rows to columns and then mirrir columns```
 
 
 
