@@ -3,7 +3,7 @@
 
 ## Introduction
 This project is a collection of [Jupyter Notebooks](https://jupyter.org/) with summaries, code examples, and solutions for the problems given in the [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/ref=sr_1_9?keywords=data+structures+and+algorithms&qid=1639038655&sr=8-9) book. It can be used as a quick recap on the main Data Structures and Algorithms before coding interviews or for increasing understanding of the subject.
-In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tree/master/python-data-structures/keetcode) folder you will find solutions for the problems from the [LeetCode](https://leetcode.com/) platform.    
+In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tree/master/python-data-structures/leetcode) folder you will find solutions for the problems from the [LeetCode](https://leetcode.com/) platform.    
 
 ## Table of Contents  
 - [Algorithm Analysis](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/algorithm-analysis.md)
@@ -24,36 +24,36 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Appendix C: Bitwise opeartion in Python](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/book/bitwise-operations.md)  
 
 ## LeetCode Problems
-- [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/two-sum.ipynb)```#hashmap #loop-and-check #O(n)```
-- [Three Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/3-sum.ipynb)```#sort #nested-loops #O(n^2)```
-- [Three Sum Closest](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/3-sum-closest.ipynb)
-- [Four Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/4-sum.ipynb)
-- [Add Two Numbers](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/add-two-numbers.ipynb)
-- [Longest Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/longest-substring.ipynb)
-- [Longest Palindromic Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/longest-palindrome.ipynb)
-- [Container With Most Water](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/container-with-water.ipynb)
-- [Reverse Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/reverse-integer.ipynb)
-- [String to Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/string-to-int.ipynb)
-- [Integers to Roman](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/integers-to-roman.ipynb)
-- [Roman to Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/roman-to-int.ipynb)
-- [Zigzag Conversion](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/zigzag-conversion.ipynb)
-- [Recover Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/recover-bst.ipynb)
-- [Validate Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/validate-bst.ipynb)
-- [Unique Binary Search Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/unique-bst.ipynb)
-- [Same Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/same-binary-tree.ipynb)
-- [Kth Largest Element in an Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/kth-largest-element.ipynb)
-- [Top K Frequent Elements](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/topk-frequent-elements.ipynb)
-- [Group Anagrams](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/group-anagrams.ipynb)
-- [Longest Consecutive Sequence](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/longest-consecutive-sequence.ipynb)
-- [Minimized Maximum of Products](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/minimized-maximum-products.ipynb)
-- [Remove Nth Node From End of List](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/remove-nth-node-from-end.ipynb)
-- [Convert Sorted Array to BST](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/sorted-array-to-bst.ipynb)
-- [Binary Tree Level Order Traversal](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/tree-level-order.ipynb)
-- [First and Last Position of Element in Sorted Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/first-last-in-sorted-array.ipynb)
-- [Merge Two Sorted Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/merge-two-sorted-lists.ipynb)
-- [Merge Intervals](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/merge-intervals.ipynb)
-- [Stock Price Fluctuation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/stock-price-fluctuation.ipynb)
-- [Invert Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/keetcode/invert-binary-tree.ipynb)
+- [Two Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/two-sum.ipynb)```#hashmap #loop-and-check #O(n)```
+- [Three Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/3-sum.ipynb)```#sort #nested-loops #O(n^2)```
+- [Three Sum Closest](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/3-sum-closest.ipynb)
+- [Four Sum](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/4-sum.ipynb)
+- [Add Two Numbers](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/add-two-numbers.ipynb)
+- [Longest Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/longest-substring.ipynb)
+- [Longest Palindromic Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/longest-palindrome.ipynb)
+- [Container With Most Water](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/container-with-water.ipynb)
+- [Reverse Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/reverse-integer.ipynb)
+- [String to Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/string-to-int.ipynb)
+- [Integers to Roman](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/integers-to-roman.ipynb)
+- [Roman to Integer](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/roman-to-int.ipynb)
+- [Zigzag Conversion](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/zigzag-conversion.ipynb)
+- [Recover Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/recover-bst.ipynb)
+- [Validate Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/validate-bst.ipynb)
+- [Unique Binary Search Trees](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/unique-bst.ipynb)
+- [Same Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/same-binary-tree.ipynb)
+- [Kth Largest Element in an Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/kth-largest-element.ipynb)
+- [Top K Frequent Elements](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/topk-frequent-elements.ipynb)
+- [Group Anagrams](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/group-anagrams.ipynb)
+- [Longest Consecutive Sequence](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/longest-consecutive-sequence.ipynb)
+- [Minimized Maximum of Products](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/minimized-maximum-products.ipynb)
+- [Remove Nth Node From End of List](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/remove-nth-node-from-end.ipynb)
+- [Convert Sorted Array to BST](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/sorted-array-to-bst.ipynb)
+- [Binary Tree Level Order Traversal](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/tree-level-order.ipynb)
+- [First and Last Position of Element in Sorted Array](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/first-last-in-sorted-array.ipynb)
+- [Merge Two Sorted Lists](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/merge-two-sorted-lists.ipynb)
+- [Merge Intervals](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/merge-intervals.ipynb)
+- [Stock Price Fluctuation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/stock-price-fluctuation.ipynb)
+- [Invert Binary Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/invert-binary-tree.ipynb)
 
 ## From Google Interviews
 - [Min-Stack](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/min-stack.ipynb)
