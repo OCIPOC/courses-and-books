@@ -67,6 +67,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Coin Change](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/coin-change.ipynb)
 - [Max Product Subarray](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/max-product-subarray.ipynb)
 - [Rotate Image](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/rotate-image.ipynb) ```#rows-to-columns #mirror-columns```
+- [Next Permutation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/next-permutation.ipynb) ```#O(nlog(n))```
 
 
 
