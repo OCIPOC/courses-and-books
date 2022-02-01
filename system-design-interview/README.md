@@ -21,5 +21,5 @@
 - [CHAPTER 14: DESIGN YOUTUBE]()
 - [CHAPTER 15: DESIGN GOOGLE DRIVE]()
 - [CHAPTER 16: THE LEARNING CONTINUES]()
-- [APPENDIX 1: DESIGN DOC TEMPLATE]()
+- [APPENDIX 1: DESIGN DOC TEMPLATE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/design-doc-template.md)
 - [APPENDIX 2: CAP THEOREM]()
