@@ -68,6 +68,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Max Product Subarray](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/max-product-subarray.ipynb)
 - [Rotate Image](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/rotate-image.ipynb) ```#rows-to-columns #mirror-columns```
 - [Next Permutation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/next-permutation.ipynb) ```#O(nlog(n))```
+- [Meeting Rooms II](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/meeting-rooms-2.ipynb) ```#O(nlog(n)) #PriorityQueue```
 
 
 
