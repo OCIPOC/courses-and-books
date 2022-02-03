@@ -5,7 +5,7 @@
 [TBD]
 
 ## Table of Contents
-- [CHAPTER 1: SCALE FROM ZERO TO MILLIONS OF USERS]()
+- [CHAPTER 1: SCALE FROM ZERO TO MILLIONS OF USERS](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/scale-from-zero-to-millions.md)
 - [CHAPTER 2: BACK-OF-THE-ENVELOPE ESTIMATION]()
 - [CHAPTER 3: A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS]()
 - [CHAPTER 4: DESIGN A RATE LIMITER](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/framework-for-system-design/)
@@ -21,5 +21,5 @@
 - [CHAPTER 14: DESIGN YOUTUBE]()
 - [CHAPTER 15: DESIGN GOOGLE DRIVE]()
 - [CHAPTER 16: THE LEARNING CONTINUES]()
-- [APPENDIX 1: DESIGN DOC TEMPLATE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/design-doc-template.md)
+- [APPENDIX 1: DESIGN DOC TEMPLATE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/design-doc-template.md)
 - [APPENDIX 2: CAP THEOREM]()
