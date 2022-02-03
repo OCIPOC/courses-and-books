@@ -1,11 +1,25 @@
 def trap(height: list) -> int:
-    res = 0
-    for i in range(1, len(height) - 1):
-        left_max = max(height[:i])
-        right_max = max(height[i+1:])
-        if right_max > height[i] and left_max > height[i]:
-            res += min(left_max, right_max) - height[i]
-    return res
+    
+    total = 0
+    left = 0
+    right = len(height) - 1
+    maxl = 0
+    maxr = 0
+    
+    while left < right:
+        if height[left] <= height[right]:
+            if height[left] > maxl:
+                maxl = height[left]
+            else:
+                total += maxl - height[left]
+            left +=1
+        else:
+            if height[right] > maxr:
+                maxr = height[right]
+            else:
+                total += maxr - height[right]
+            right -=1
+    return total
 
 
 assert trap([4,2,0,3,2,5]) == 9
