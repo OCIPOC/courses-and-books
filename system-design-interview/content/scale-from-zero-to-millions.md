@@ -4,16 +4,16 @@
 This chapter focuses on the foundations of high-scale architecture. One of the best ways of learning architecture patterns is to design a single server system and then gradually scale it up to support more load.
 
 ## Single Server Setup
-The Single Server setup is simple - all components, line web servers, databases, caches, etc are running on a single machine. 
+The Single Server setup is simple - all components, likee web servers, databases, caches, etc are running on a single machine. 
 <table width="256px">
   <tr>
     <td><img src="../images/chapter1-single-server.png" /></td>
   </tr>
 </table>
+  
 The flow is straightforward as well:
-- User that using a browser or a smartphone, access the web server by using the domain name.
-- The domain name is resolved in some a DNS server like [Route53](), [OpenDNS]()
-
+- User accesses the web server by using the domain name from a browser or a smartphone 
+- The domain name is resolved in some a DNS server like [Route53](https://en.wikipedia.org/wiki/Amazon_Route_53), [OpenDNS](https://en.wikipedia.org/wiki/OpenDNS)
 
 
 ## Database
