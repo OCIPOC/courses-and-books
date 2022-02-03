@@ -6,7 +6,7 @@ This chapter focuses on the foundations of high-scale architecture. One of the b
 ## Single Server Setup
 <table width="256px">
   <tr>
-    <td><img src="../images/chpater1-single-server.png" /></td>
+    <td><img src="../images/chapter1-single-server.png" /></td>
   </tr>
 </table>
 
