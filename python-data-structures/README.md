@@ -71,6 +71,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Meeting Rooms II](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/meeting-rooms-2.ipynb) ```#O(nlog(n)) #priority-queue```
 - [Minimum Window Substring](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/min-window-substring.ipynb) ```#O(n) #sliding-window #state```
 - [Trapping Rain Water](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/trap-water.ipynb) ```#O(n) #state #left #right```
+- [Maximize Distance to Closest Person](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/maximize-distance-to-closest.ipynb) ```#O(n) #track-zeros```
 
 
 
