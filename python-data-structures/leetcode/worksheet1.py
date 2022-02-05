@@ -1,26 +1,27 @@
-def trap(height: list) -> int:
-    
-    total = 0
-    left = 0
-    right = len(height) - 1
-    maxl = 0
-    maxr = 0
-    
-    while left < right:
-        if height[left] <= height[right]:
-            if height[left] > maxl:
-                maxl = height[left]
-            else:
-                total += maxl - height[left]
-            left +=1
-        else:
-            if height[right] > maxr:
-                maxr = height[right]
-            else:
-                total += maxr - height[right]
-            right -=1
-    return total
+def max_prod(nums: list) -> int:
+    if not nums:
+        return 0
+    else:
+        res, mx, mn = nums[0], nums[0], nums[0]
+        for curr in nums[1:]:
+            print(curr, mx, mn, res)
+            mx = max(curr, curr*mx, curr*mn)
+            mn = min(curr, curr*mn, curr*mx)
+            res = max(mx, res)
+    return res
 
 
-assert trap([4,2,0,3,2,5]) == 9
-assert trap([0,1,0,2,1,0,1,3,2,1,2,1]) == 6
+def max_prod2(nums: list) -> list:
+    res = None
+    for i in range(len(nums)):
+        curr = 1
+        for j in range(i, len(nums)):
+            curr *= nums[j]
+        
+        if res is None or curr > res:
+            res = curr
+    return res 
+
+
+print(max_prod2([2,-5,-2,-4,3]))
+print(max_prod([2,-5,-2,-4,3]))
