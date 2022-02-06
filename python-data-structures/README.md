@@ -65,7 +65,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Best Time to Buy and Sell Stock](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/best-sell-stocks.ipynb)
 - [Jump Game](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/jump-game.ipynb)
 - [Coin Change](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/coin-change.ipynb)
-- [Max Product Subarray](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/max-product-subarray.ipynb)
+- [Max Product Subarray](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/max-product-subarray.ipynb)```#O(n) #DP #track-min-max #flip```
 - [Rotate Image](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/rotate-image.ipynb) ```#rows-to-columns #mirror-columns```
 - [Next Permutation](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/leetcode/next-permutation.ipynb) ```#O(nlog(n))```
 - [Meeting Rooms II](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/meeting-rooms-2.ipynb) ```#O(nlog(n)) #priority-queue```
