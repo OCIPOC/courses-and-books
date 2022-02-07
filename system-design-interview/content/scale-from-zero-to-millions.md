@@ -32,7 +32,7 @@ NoSQL databases are comparably new and used when dealing with unstructured data,
 - Key-Value databases
 - Document databases 
 - Graph Databases
-- Column Databases
+- Column Databases  
 Some popular NoSQL databases are CouchDB, DynamoDB, Cassandra. Neo4j, Redis, etc.
 
 ## Vertical scaling vs horizontal scaling
