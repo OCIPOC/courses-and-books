@@ -21,7 +21,7 @@ The flow is straightforward as well:
 When the traffic increases, one server is not enough. It makes sense to separate the Web Tier and the Database Tier. Such a separation will allow to scale out each tier independently. 
 <table width="256px">
   <tr>
-    <td><img src="../images/ch1-single-db.png" /></td>
+    <td><img src="../images/ch1-server-db.png" /></td>
   </tr>
 </table>
 
