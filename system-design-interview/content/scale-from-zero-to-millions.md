@@ -27,10 +27,21 @@ When the traffic increases, one server is not enough. It makes sense to separate
 
 
 ## Which databases to use?
+There are two types of databases: Relational (SQL) and NoSQL databases. Relational databases organize the data in tables with relations. For example, think about an online e-commerce system. We can organize the data in Customers and Orders tables, where for each customer, there are multiple entries in the Orders Table (aka one-to-many relation). An SQL language is used to query the data in Relational Databases. The most popular Relation Databases are MySQL, Oracle, PostgreSQL
+NoSQL databases are comparably new and used when dealing with unstructured data, huge volumes of data, or when a low-latency data access is required. There are four families of NoSQL databases
+- Key-Value databases
+- Document databases 
+- Graph Databases
+- Column Databases
+Some popular NoSQL databases are CouchDB, DynamoDB, Cassandra. Neo4j, Redis, etc.
 
 ## Vertical scaling vs horizontal scaling
+We can increase the power of the software component by scaling it [up](https://en.wikipedia.org/wiki/Scalability) (Vertical) or [out](https://en.wikipedia.org/wiki/Scalability) (Horizontal). Scaling up is just adding additional hardware. For example, we scale up a MySQL database by increasing the number of CPU cores of the underlying server. On the other hand, we can scale out software components by increasing the number of underlying servers. For example, we scale out MongoDB by increasing the number of underlying machines. 
+Each of the methods has its limitation. We cannot scale up [infinitely](). There are certain hard limits for the number of CPU cores, RAM, and network bandwidth on each server. Another point is that the Vertical scaling doesn't have failover or redundancy. The Horizontal Scaling doesn't work in some cases too. Some software components (example: Relational Databases) cannot scale out. 
+
 
 ## Load balancer
+A load balancer evenly distributes incoming traffic among web servers defined in a load-balanced set.
 
 ## Database replication
 
