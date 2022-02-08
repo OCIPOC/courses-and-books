@@ -73,6 +73,9 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Trapping Rain Water](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/trap-water.ipynb) ```#O(n) #state #left #right```
 - [Maximize Distance to Closest Person](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-goog/maximize-distance-to-closest.ipynb) ```#O(n) #track-zeros```
 
+## From Facebook Interviews
+- [Longest Substring Without Repeating Characters](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-fb/longest-substring-without-reps.ipynb)
+
 
 
 
