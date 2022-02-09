@@ -75,6 +75,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 
 ## From Facebook Interviews
 - [Longest Substring Without Repeating Characters](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-fb/longest-substring-without-reps.ipynb)```#O(n) #sliding-window```
+- [Validate Binary Search Tree](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-fb/validate-bst.ipynb)```#O(n) #preorder #propogate-valid-range```
 
 
 
