@@ -1,3 +1,3 @@
-import math
+import bisect
 
-print(math.inf)
+bisect.bisect()
