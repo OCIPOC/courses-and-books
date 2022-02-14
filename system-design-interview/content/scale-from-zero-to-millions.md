@@ -43,6 +43,11 @@ Each of the methods has its limitation. We cannot scale up [infinitely](). There
 
 ## Load balancer
 A load balancer evenly distributes incoming traffic among web servers defined in a load-balanced set.
+<table width="256px">
+  <tr>
+    <td><img src="../images/ch1-load-balancer.png" /></td>
+  </tr>
+</table>
 
 ## Database replication
 
