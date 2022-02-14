@@ -42,7 +42,10 @@ Each of the methods has its limitation. We cannot scale up [infinitely](). There
 
 
 ## Load balancer
-A load balancer evenly distributes incoming traffic among web servers defined in a load-balanced set.
+A load balancer distributes incoming traffic among web servers defined in a load-balanced set. A load balancer is a crucial component to implement High Availability and Redundant systems.
+1. High Availablity: users will be unable to access the website if the server goes down. In this case a Load Balancer can be used to build an active-passive setup. A Load Balancer will rout the traffic to the active server and in case of server's failure the traffic will go to the second server.  
+2. Redundancy: The server will reach its capacity when the traffic spikes. In this case a Load Balancer can be used to build an active-active setup. The traffic will be distributed between two servers. Optionally, we can setup an autoscale to add server as traffic growth.
+
 <table width="256px">
   <tr>
     <td><img src="../images/ch1-load-balancer.png" /></td>
