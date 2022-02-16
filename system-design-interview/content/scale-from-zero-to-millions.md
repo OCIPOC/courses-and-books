@@ -54,11 +54,18 @@ A load balancer distributes incoming traffic among web servers defined in a load
 
 Below is a quick overview of the most coined terms in cloud or data storage services.
 - [Fault tolerance](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - ability that allows systems to function even when one of its components fails. Ussually achieved by [redundancy](https://en.wikipedia.org/wiki/Redundancy_(engineering)) 
-- [Availability](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - is the system uptime. For example, High-Availablity on AWS Service usually means that it is available more than 99.9% of the time. 
-- [Resilience](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - is the probability that a system will work as designed.
+- [Availability](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - is the system uptime. For example, High-Availablity on AWS Service usually means that it is available more than 99.9% of the time.
+- [Reliability](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - is closely related to availability, however, a system can be ‘available’ but not be working properly. Reliability is the probability that a system will work as designed.
+- [Resilience](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - described as the ability to a system to self-heal after damage, failure, load, or attack.
 - [Durability](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - refers to the on-going existence of the object or resource
 
 ## Database replication
+The database replication is achieved using the [master-slave](https://en.wikipedia.org/wiki/Master/slave_(technology)) technique. The Master node is usually used for writes only. And Slave replicas are used for read operations. This approach works well when the number of reads is much lower than the number of writes.
+Database Replication advantages:
+- Performance:
+- Reliability: 
+- High Availablity
+- 
 
 ## Cache
 - Cache Tier
