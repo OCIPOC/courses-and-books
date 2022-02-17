@@ -60,7 +60,14 @@ Below is a quick overview of the most coined terms in cloud or data storage serv
 - [Durability](https://sprinkle-twinkles.medium.com/availability-vs-reliability-vs-durability-vs-resiliency-dfead8c92c58) - refers to the on-going existence of the object or resource
 
 ## Database replication
-The database replication is achieved using the [master-slave](https://en.wikipedia.org/wiki/Master/slave_(technology)) technique. The Master node is usually used for writes only. And Slave replicas are used for read operations. This approach works well when the number of reads is much lower than the number of writes.
+The database replication is achieved using the [master-slave](https://en.wikipedia.org/wiki/Master/slave_(technology)) technique. The Master node is usually used for writes only. And Slave replicas are used for the read operations. 
+<table width="256px">
+  <tr>
+    <td><img src="../images/ch1-replicas.png" /></td>
+  </tr>
+</table>
+
+This approach works well when the number of reads is much lower than the number of writes.
 Database Replication advantages:
 - Performance:
 - Reliability: 
