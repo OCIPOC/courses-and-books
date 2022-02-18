@@ -67,26 +67,30 @@ The database replication is achieved using the [master-slave](https://en.wikiped
   </tr>
 </table>
 
-This approach works well when the number of reads is much lower than the number of writes.
 Database Replication advantages:
-- Performance:
-- Reliability: 
-- High Availablity
-- 
+- Performance: when processing writes and reads on different nodes, the overall performance is much better 
+- Reliability: The workload is distributed across online nodes, and thus when one node is offline, the DB will be active. When a master node is offline, one of the slave nodes is promoted to be a master 
+
 
 ## Cache
-- Cache Tier
-- Consideration for using Cache
+A cache is a temporary storage area that stores the result of expensive responses or frequently accessed data in memory so that subsequent requests are served more quickly. The application performance is greatly affected by calling the database repeatedly. The cache can mitigate this problem.
 
 ## Content delivery network (CDN)
+CDN consists of edges. Edges are geographically distributed servers that deliver static content close to the end users. We use CDN when the latency of content delivery is critical. Think about the Netflix video delivery. It is better to deliver video close to the viewers.
 
 ## Stateful Architecture
+A stateful server remembers the state (client data) from one request to the next. The problem with this approach is that the request from the same client should be routed to the same server. Ut can be done with [sticky sessions](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/sticky-sessions.html) in most load balancers. Some challenges when using a stateful approach: scaling, server failure handling. 
 
 ## Stateless Architecture
+In Stateless Architecture, we move out the state to the external store. Now, user requests can be routed to any server, and the state will be loaded from the state store. Of course, such an approach is simple, scalable, and [robust](https://en.wikipedia.org/wiki/Robustness_(computer_science)). 
 
 ## Message queue
+A message queue is a durable component stored in a memory that supports asynchronous communication. The basic architecture of a message queue is simple. Input services, called producers/publishers, create messages and publish them to a message queue. Other services or servers, called consumers/subscribers, connect to the Queue and perform actions defined by messages. Queue-centric workflow is a good choice for building scalable and reliable solutions.
 
 ## Logging, metrics, automation
+- Logging: monitoring error logs is important because it helps to identify errors and problems in the system. You can monitor error logs at per server level or use tools to aggregate them to a centralized service for easy search and viewing.
+- Metrics: collecting metrics helps to gain business insights and understand the system health status.
+- Automation: CI/CD is a good practice in which each code check-in is verified through automation, allowing teams to detect problems early.
 
 ## Database scaling
 - Vertical
