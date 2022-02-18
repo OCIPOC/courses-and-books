@@ -23,4 +23,4 @@
 - [CHAPTER 16: THE LEARNING CONTINUES -TBD]
 - [APPENDIX 1: DESIGN DOC TEMPLATE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/design-doc-template.md)
 - [APPENDIX 2: CAP THEOREM]()
-- [APPENDIX 3: HOW TO LEARN](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/apx-sudy-tech.md)
+- [APPENDIX 3: HOW TO LEARN](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/apx-study-tech.md)
