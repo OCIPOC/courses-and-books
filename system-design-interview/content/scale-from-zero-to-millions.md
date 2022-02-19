@@ -89,10 +89,18 @@ A message queue is a durable component stored in a memory that supports asynchro
 
 ## Logging, metrics, automation
 - Logging: monitoring error logs is important because it helps to identify errors and problems in the system. You can monitor error logs at per server level or use tools to aggregate them to a centralized service for easy search and viewing.
-- Metrics: collecting metrics helps to gain business insights and understand the system health status.
+- Metrics: collecting metrics helps to gain business insights and understand the system's health status.
 - Automation: CI/CD is a good practice in which each code check-in is verified through automation, allowing teams to detect problems early.
 
 ## Database scaling
-- Vertical
-- Horizontal
+There are two types of scaling: vertical and horizontal. 
 
+### Vertical Scaling
+When scaling vertically, aka scaling up, we are adding hardware. Consider a DB Server with 16GB and four CPU cores. We can scale it up by expanding its hardware to 32GB of RAM and 8 CPU cores. Of course, it has such disadvantages as high cost, single point of failure, hardware limitation. 
+
+### Horizontal Scaling
+When scaling horizontally, aka scaling out, we are adding more servers. Consider the DB cluster with three servers. We can scale out by expanding the cluster to 4 machines. Horizontal scaling of databases is also known as sharding. 
+Shards are construction blocks of a database that share the same schema. The data on each shard is unique and is defined by the [sharding key](https://en.wikipedia.org/wiki/Shard_(database_architecture)). Of course, such an approach is high-available, scalable, and cost-efficient, but it also has its drawbacks:
+- Celebrity problem: excessive access to a specific shard could cause server overload.
+- Join problem: it is hard to perform join operations
+- Re-sharding problem: it can take a lot of time to add or remove a server from the cluster
