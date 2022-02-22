@@ -6,7 +6,7 @@
 
 ## Table of Contents
 - [CHAPTER 1: SCALE FROM ZERO TO MILLIONS OF USERS](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/scale-from-zero-to-millions.md)
-- [CHAPTER 2: BACK-OF-THE-ENVELOPE ESTIMATION -TBD]
+- [CHAPTER 2: BACK-OF-THE-ENVELOPE ESTIMATION](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/ch2-back-of-the-envelope.md)
 - [CHAPTER 3: A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS -TBD]
 - [CHAPTER 4: DESIGN A RATE LIMITER -TBD]
 - [CHAPTER 5: DESIGN CONSISTENT HASHING -TBD]
