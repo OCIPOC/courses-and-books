@@ -18,7 +18,7 @@
 - [CHAPTER 11: DESIGN A NEWS FEED SYSTEM -TBD]
 - [CHAPTER 12: DESIGN A CHAT SYSTEM -TBD]
 - [CHAPTER 13: DESIGN A SEARCH AUTOCOMPLETE SYSTEM -TBD]
-- [CHAPTER 14: DESIGN YOUTUBE -TBD]
+- [CHAPTER 14: DESIGN YOUTUBE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/ch14-design-youtube.md)
 - [CHAPTER 15: DESIGN GOOGLE DRIVE -TBD]
 - [CHAPTER 16: THE LEARNING CONTINUES -TBD]
 - [APPENDIX 1: DESIGN DOC TEMPLATE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/design-doc-template.md)
