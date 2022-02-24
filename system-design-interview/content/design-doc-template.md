@@ -20,11 +20,11 @@ Address the following aspects of System Design
 ## System APIs
 Reduce Complexity
 
-## High Level Design
-Define main componance and data flows 
+## High-Level Design
+Define components and data flows 
 
 ## Detailed Design 
-Design the main components (OOD can help)
+Low-Level design of each component (OOD can help)
 
 ## Analysis
 - Cost
