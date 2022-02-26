@@ -41,14 +41,14 @@ YouTube looks simple: content creators upload videos, and viewers click play. Bu
 ## High-Level Design
 Define components and data flows 
 
-<table width="256px">
+<table width="1024px">
   <tr>
     <td><img src="../images/ch14-youtube.png" /></td>
   </tr>
 </table>
 
 ## Detailed Design 
-Low-Level design of each component (OOD can help)
+
 
 ## Analysis
 - Cost
