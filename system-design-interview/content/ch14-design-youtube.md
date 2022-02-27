@@ -47,7 +47,19 @@ Define components and data flows
   </tr>
 </table>
 
-## Detailed Design 
+## Detailed Design
+
+### Ingest API
+Ingest API uploads new video files to the System. The flow is simple, youtube users performs authentication and then upload video files (up to 1GB). Once vide files land in the raw data storage, the System perform transcoding.
+
+### Transcoder
+
+### Video Store
+
+### Metada Store
+
+### Consumer API
+
 
 
 ## Analysis
