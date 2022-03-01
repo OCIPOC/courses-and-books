@@ -2,7 +2,7 @@
 [Link](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF/ref=sr_1_1?crid=QU4IPC1QHGSU&keywords=system+design+interview&qid=1643664679&s=books&sprefix=system+%2Cstripbooks%2C231&sr=1-1)
 
 ## Introduction
-[TBD]
+The objective of this book is to provide a framework for approaching System Design interviews. The right strategy and knowledge are vital to the success of an interview.
 
 ## Table of Contents
 - [CHAPTER 1: SCALE FROM ZERO TO MILLIONS OF USERS](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/scale-from-zero-to-millions.md)
@@ -20,7 +20,6 @@
 - [CHAPTER 13: DESIGN A SEARCH AUTOCOMPLETE SYSTEM -TBD]
 - [CHAPTER 14: DESIGN YOUTUBE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/ch14-design-youtube.md)
 - [CHAPTER 15: DESIGN GOOGLE DRIVE -TBD]
-- [CHAPTER 16: THE LEARNING CONTINUES -TBD]
 - [APPENDIX 1: DESIGN DOC TEMPLATE](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/design-doc-template.md)
 - [APPENDIX 2: CAP THEOREM]()
 - [APPENDIX 3: HOW TO LEARN](https://github.com/dimastatz/courses-and-books/tree/master/system-design-interview/content/appendix-how-to-learn.md)
