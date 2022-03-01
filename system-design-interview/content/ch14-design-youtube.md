@@ -50,15 +50,22 @@ Define components and data flows
 ## Detailed Design
 
 ### Ingest API
-Ingest API uploads new video files to the System. The flow is simple, youtube users performs authentication and then upload video files (up to 1GB). Once vide files land in the raw data storage, the System perform transcoding.
+Ingest API allows uploading new video files to the System. The flow is simple, youtube users performs authentication and then upload video files (up to 1GB). Once vide files land in the raw data storage, the System performs transcoding. 
 
 ### Transcoder
+The Transcoder Service takes a file and creates slices in different resolutions. For example, given a 4K video file, it creates slices of 4s each for UHD, HD and SD resolutions.
 
 ### Video Store
+Any distributed object store can be used for storing video slices. In this example we will use AWS S3. We create a folder for each video. Under the main folder, we create UHD, HD, and SD subfolders. Each subfolder will contain slices (4sec video files).
+
+### CDN
+CDN delivers video files to the end user's players from the closest CDN edge. We can use a built-in property of the AWS CloudFront when AWS S3 is used as the origin, and CDN will play the role of cache.
 
 ### Metada Store
+Once video slices are in place, we create a manifest (a playlist). Video players load manifest and play video files one by one. Any document database can be used to implement the metadata store. For example it can be MongoDB, DynamoDB, ElasticSearch
 
 ### Consumer API
+Consumer API is a playback facade. Players load playlists from the Consumer API.
 
 
 
