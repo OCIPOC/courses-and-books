@@ -82,6 +82,7 @@ In addition, in the [leetcode](https://github.com/dimastatz/courses-and-books/tr
 - [Longest Substring with At Most K Distinct Characters](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-fb/longest-substring-with-distinct.ipynb)```#O(n) #sliding-window```
 - [Flatten Binary Tree to Linked List](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-fb/flatten-bst-to-list.ipynb)```#O(n) #pre-order```
 - [Permutations II](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-fb/permutations-2.ipynb)```O(n!)```
+- [Interval List Intersections](https://github.com/dimastatz/courses-and-books/blob/master/python-data-structures/interview-fb/interval-list-intersections.ipynb)```O(n)```
 
 
 

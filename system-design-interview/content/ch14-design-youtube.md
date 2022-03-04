@@ -68,7 +68,6 @@ Once video slices are in place, we create a manifest (a playlist). Video players
 Consumer API is a playback facade. Players load playlists from the Consumer API.
 
 
-
 ## Analysis
 - Cost
 - Security
