@@ -31,6 +31,7 @@ In a network system, a rate limiter is used to control the rate of traffic sent 
 </table>
 
 ## Detailed Design 
+The Rate Limiter servers as proxy to the Server API and runs on top of Redis (key-value store). 
 
 
 ## Analysis
