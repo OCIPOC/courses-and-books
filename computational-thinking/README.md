@@ -11,14 +11,14 @@ Computational thinking is an approach to solving problems using concepts and ide
     - Algorithms
 - Expressing and analyzing algorithms
     - Complexity
-    = Linear Search
+    - Linear Search
     - Binary Search
     - Brute-Force
     - Greedy
 - Fundamental Operations of Modern Computer
-    = Von Nuemann Architecture
+    - Von Nuemann Architecture
     - Von Nuemann Architecture Data
-    = Von Nuemann Architecture Control Structures
-    = Expressing Algorithms in Pseudocode  
+    - Von Nuemann Architecture Control Structures
+    - Expressing Algorithms in Pseudocode  
 - Applied computational thinking using Python   
 
