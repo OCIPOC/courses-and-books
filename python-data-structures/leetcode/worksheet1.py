@@ -1,3 +1,6 @@
-arr = [[1, 12, 20],[1, 8, 22]]
+s = '123'
+print(s[:-1])
 
-print(sorted(arr))
+print(type(s[0]))
+
+print(bool('asaS'), bool(''))
